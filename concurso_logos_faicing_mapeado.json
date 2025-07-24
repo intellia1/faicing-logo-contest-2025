@@ -1,0 +1,3286 @@
+{
+  "metadata": {
+    "concurso": "fAIcing Logo Rebranding 2025",
+    "fase": "Clasificatoria - 32 Finalistas",
+    "fecha_generacion": "2025-01-01",
+    "version": "2.0",
+    "descripcion": "Logos del concurso fAIcing con mapeo de nombres aplicado",
+    "mapeo_aplicado": true,
+    "fecha_mapeo": "2025-01-01"
+  },
+  "estadisticas": {
+    "total_logos": 54,
+    "tandas_procesadas": 4,
+    "mejor_puntuacion": 48,
+    "peor_puntuacion": 12,
+    "promedio_puntuacion": 32.96,
+    "logos_por_tanda": {
+      "Tanda 1": 10,
+      "Tanda 2": 10,
+      "Tanda 3": 10,
+      "Tanda 4": 24
+    },
+    "criterios_promedio": {
+      "originalidad": 4.59,
+      "adecuacion_marca": 6.91,
+      "legibilidad_escalabilidad": 4.61,
+      "impacto_visual": 5.78,
+      "versatilidad_cromatica": 4.5,
+      "innovacion_tecnologica": 6.57
+    },
+    "total_logos_mapeados": 47,
+    "total_logos_sin_mapeo": 0,
+    "archivos_consolidados": 0,
+    "fecha_ultimo_mapeo": "2025-01-01"
+  },
+  "estadisticas_mapeo": {
+    "logos_procesados": 54,
+    "logos_mapeados": 47,
+    "logos_sin_mapeo": 0,
+    "logos_duplicados": 7,
+    "mapeos_multiples": 0,
+    "archivos_no_encontrados": [],
+    "mapeos_aplicados": {
+      "tanda_1_logo_08.png": "logo_08.png",
+      "tanda_4_logo_09.png": "logo_44.png",
+      "tanda_3_logo_05.png": "logo_47.png",
+      "tanda_4_logo_12.png": "logo_61.png",
+      "tanda_1_logo_01.png": "logo_01.png",
+      "tanda_3_logo_06.png": "logo_27.png",
+      "tanda_4_logo_02.png": "logo_37.png",
+      "tanda_4_logo_04.png": "logo_55.png",
+      "tanda_4_logo_23.png": "logo_60.png",
+      "tanda_4_logo_10.png": "logo_18.png",
+      "tanda_1_logo_02.png": "logo_02.png",
+      "tanda_1_logo_03.png": "logo_03.png",
+      "tanda_1_logo_04.png": "logo_04.png",
+      "tanda_1_logo_05.png": "logo_05.png",
+      "tanda_2_logo_03.png": "logo_12.png",
+      "tanda_3_logo_04.png": "logo_17.png",
+      "tanda_1_logo_09.png": "logo_09.png",
+      "tanda_1_logo_10.png": "logo_10.png",
+      "tanda_4_logo_11.png": "logo_21.png",
+      "tanda_1_logo_07.png": "logo_07.png",
+      "tanda_4_logo_05.png": "logo_40.png",
+      "tanda_1_logo_06.png": "logo_06.png",
+      "tanda_2_logo_01.png": "logo_13.png",
+      "tanda_2_logo_10.png": "logo_19.png",
+      "tanda_3_logo_03.png": "logo_23.png",
+      "tanda_4_logo_01.png": "logo_52.png",
+      "tanda_3_logo_01.png": "logo_59.png",
+      "tanda_3_logo_09.png": "logo_30.png",
+      "tanda_3_logo_10.png": "logo_31.png",
+      "tanda_4_logo_15.png": "logo_51.png",
+      "tanda_4_logo_13.png": "logo_28.png",
+      "tanda_2_logo_02.png": "logo_25.png",
+      "tanda_2_logo_04.png": "logo_14.png",
+      "tanda_2_logo_05.png": "logo_20.png",
+      "tanda_3_logo_02.png": "logo_46.png",
+      "tanda_4_logo_08.png": "logo_11.png",
+      "tanda_2_logo_09.png": "logo_48.png",
+      "tanda_3_logo_07.png": "logo_41.png",
+      "tanda_4_logo_03.png": "logo_35.png",
+      "tanda_4_logo_06.png": "logo_43.png",
+      "tanda_4_logo_18.png": "logo_38.png",
+      "tanda_2_logo_06.png": "logo_36.png",
+      "tanda_2_logo_07.png": "logo_49.png",
+      "tanda_2_logo_08.png": "logo_50.png",
+      "tanda_4_logo_07.png": "logo_53.png",
+      "tanda_4_logo_16.png": "logo_57.png",
+      "tanda_4_logo_21.png": "logo_58.png"
+    },
+    "logos_consolidados": {},
+    "conflictos_resueltos": []
+  },
+  "criterios_evaluacion": {
+    "originalidad": "Nivel de innovación y diferenciación del diseño",
+    "adecuacion_marca": "Coherencia con los valores y propósito de fAIcing",
+    "legibilidad_escalabilidad": "Claridad y funcionalidad en diferentes tamaños",
+    "impacto_visual": "Capacidad de generar recordación y atracción",
+    "versatilidad_cromatica": "Adaptabilidad a diferentes contextos y medios",
+    "innovacion_tecnologica": "Representación efectiva de la tecnología AI"
+  },
+  "mapeo_utilizado": {
+    "mapping": {
+      "logo_01.png": [
+        "tanda_1_logo_01.png"
+      ],
+      "logo_02.png": [
+        "tanda_1_logo_02.png"
+      ],
+      "logo_03.png": [
+        "tanda_1_logo_03.png"
+      ],
+      "logo_04.png": [
+        "tanda_1_logo_04.png"
+      ],
+      "logo_05.png": [
+        "tanda_1_logo_05.png"
+      ],
+      "logo_06.png": [
+        "tanda_1_logo_06.png"
+      ],
+      "logo_07.png": [
+        "tanda_1_logo_07.png"
+      ],
+      "logo_08.png": [
+        "tanda_1_logo_08.png"
+      ],
+      "logo_09.png": [
+        "tanda_1_logo_09.png",
+        "tanda_3_logo_08.png"
+      ],
+      "logo_10.png": [
+        "tanda_1_logo_10.png"
+      ],
+      "logo_11.png": [
+        "tanda_4_logo_08.png"
+      ],
+      "logo_12.png": [
+        "tanda_2_logo_03.png"
+      ],
+      "logo_13.png": [
+        "tanda_2_logo_01.png"
+      ],
+      "logo_14.png": [
+        "tanda_2_logo_04.png"
+      ],
+      "logo_17.png": [
+        "tanda_3_logo_04.png"
+      ],
+      "logo_18.png": [
+        "tanda_4_logo_10.png"
+      ],
+      "logo_19.png": [
+        "tanda_2_logo_10.png",
+        "tanda_4_logo_24.png"
+      ],
+      "logo_20.png": [
+        "tanda_2_logo_05.png"
+      ],
+      "logo_21.png": [
+        "tanda_4_logo_11.png"
+      ],
+      "logo_23.png": [
+        "tanda_3_logo_03.png"
+      ],
+      "logo_25.png": [
+        "tanda_2_logo_02.png"
+      ],
+      "logo_27.png": [
+        "tanda_3_logo_06.png"
+      ],
+      "logo_28.png": [
+        "tanda_4_logo_13.png"
+      ],
+      "logo_30.png": [
+        "tanda_3_logo_09.png"
+      ],
+      "logo_31.png": [
+        "tanda_3_logo_10.png"
+      ],
+      "logo_35.png": [
+        "tanda_4_logo_03.png"
+      ],
+      "logo_36.png": [
+        "tanda_2_logo_06.png",
+        "tanda_4_logo_19.png"
+      ],
+      "logo_37.png": [
+        "tanda_4_logo_02.png"
+      ],
+      "logo_38.png": [
+        "tanda_4_logo_18.png"
+      ],
+      "logo_40.png": [
+        "tanda_4_logo_05.png"
+      ],
+      "logo_41.png": [
+        "tanda_3_logo_07.png"
+      ],
+      "logo_43.png": [
+        "tanda_4_logo_06.png"
+      ],
+      "logo_44.png": [
+        "tanda_4_logo_09.png"
+      ],
+      "logo_46.png": [
+        "tanda_3_logo_02.png"
+      ],
+      "logo_47.png": [
+        "tanda_3_logo_05.png"
+      ],
+      "logo_48.png": [
+        "tanda_2_logo_09.png"
+      ],
+      "logo_49.png": [
+        "tanda_2_logo_07.png"
+      ],
+      "logo_50.png": [
+        "tanda_2_logo_08.png",
+        "tanda_4_logo_14.png"
+      ],
+      "logo_51.png": [
+        "tanda_4_logo_15.png"
+      ],
+      "logo_52.png": [
+        "tanda_4_logo_01.png"
+      ],
+      "logo_53.png": [
+        "tanda_4_logo_07.png",
+        "tanda_4_logo_17.png"
+      ],
+      "logo_55.png": [
+        "tanda_4_logo_04.png"
+      ],
+      "logo_57.png": [
+        "tanda_4_logo_16.png",
+        "tanda_4_logo_20.png"
+      ],
+      "logo_58.png": [
+        "tanda_4_logo_21.png"
+      ],
+      "logo_59.png": [
+        "tanda_3_logo_01.png",
+        "tanda_4_logo_22.png"
+      ],
+      "logo_60.png": [
+        "tanda_4_logo_23.png"
+      ],
+      "logo_61.png": [
+        "tanda_4_logo_12.png"
+      ]
+    },
+    "unsubmitted_or_skipped_files": [
+      "logo_15.png",
+      "logo_16.png",
+      "logo_22.png",
+      "logo_24.png",
+      "logo_26.png",
+      "logo_29.png",
+      "logo_32.png",
+      "logo_33.png",
+      "logo_34.png",
+      "logo_39.png",
+      "logo_42.png",
+      "logo_45.png",
+      "logo_54.png",
+      "logo_56.png"
+    ]
+  },
+  "logos": [
+    {
+      "logo_id": "logo_08.png",
+      "scores": {
+        "originalidad": 8,
+        "adecuacion_marca": 9,
+        "legibilidad_escalabilidad": 6,
+        "impacto_visual": 8,
+        "versatilidad_cromatica": 8,
+        "innovacion_tecnologica": 9
+      },
+      "total": 48,
+      "justificacion": {
+        "originalidad": "La integración de los corchetes en la 'AI' y el corte afilado de la 'f' son detalles originales y bien ejecutados que le dan una fuerte personalidad.",
+        "adecuacion_marca": "Excelente adecuación. El foco en 'AI', la precisión sugerida por los cortes y el aspecto general de alta tecnología reflejan perfectamente los valores de la marca.",
+        "legibilidad_escalabilidad": "El logo principal es muy legible. Sin embargo, el tagline 'PIXEL - PRODUCT' es demasiado pequeño y se volverá ilegible inmediatamente, lo cual es un fallo si se considera parte integral.",
+        "impacto_visual": "Es un logo fuerte, moderno y con confianza. La combinación de colores y la composición son memorables y tienen un gran impacto.",
+        "versatilidad_cromatica": "La estructura de dos colores es robusta y se adaptará bien a versiones de un solo color, manteniendo su fuerza conceptual.",
+        "innovacion_tecnologica": "Comunica tecnología avanzada de forma brillante. El encuadre de 'AI' es un guiño directo a la visión por computadora y el diseño general denota precisión e inteligencia."
+      },
+      "tanda": 1,
+      "nombre_archivo": "ai_studio_code.txt",
+      "posicion_en_tanda": 8,
+      "id_global": 8,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 80.0,
+      "ranking_global": 1,
+      "logo_id_original": "tanda_1_logo_08.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_44.png",
+      "scores": {
+        "originalidad": 7,
+        "adecuacion_marca": 9,
+        "legibilidad_escalabilidad": 6,
+        "impacto_visual": 8,
+        "versatilidad_cromatica": 9,
+        "innovacion_tecnologica": 9
+      },
+      "total": 48,
+      "justificacion": {
+        "originalidad": "El diseño es simple, pero la ejecución es muy elegante y bien pensada. El marco delgado que resalta 'AI' es un toque distintivo y memorable.",
+        "adecuacion_marca": "Excelente. El marco actúa como un 'cuadro delimitador' (bounding box), una referencia directa a la visión por computadora. Transmite precisión, enfoque y tecnología.",
+        "legibilidad_escalabilidad": "El texto es muy legible. El marco y la línea de puntos son finos y podrían perder algo de definición en tamaños extremadamente pequeños, pero en general escala bien.",
+        "impacto_visual": "Tiene un impacto visual fuerte que proviene de su inteligencia y limpieza, no de la estridencia. Es profesional, moderno y memorable.",
+        "versatilidad_cromatica": "El diseño de dos colores es fuerte y se traduce perfectamente a una versión de un solo color, manteniendo intacto su concepto.",
+        "innovacion_tecnologica": "La referencia al 'bounding box' es una de las representaciones visuales más inteligentes y directas de la tecnología de visión por computadora vistas."
+      },
+      "tanda": 4,
+      "nombre_archivo": "ai_studio_code (3).txt",
+      "posicion_en_tanda": 9,
+      "id_global": 39,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 80.0,
+      "ranking_global": 2,
+      "logo_id_original": "tanda_4_logo_09.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_47.png",
+      "scores": {
+        "originalidad": 4,
+        "adecuacion_marca": 7,
+        "legibilidad_escalabilidad": 10,
+        "impacto_visual": 8,
+        "versatilidad_cromatica": 9,
+        "innovacion_tecnologica": 5
+      },
+      "total": 43,
+      "justificacion": {
+        "originalidad": "Encapsular parte del nombre en una forma geométrica es un recurso de diseño muy común. El paralelogramo inclinado le da dinamismo pero la idea es básica.",
+        "adecuacion_marca": "Resalta 'AI' de forma clara. La forma puede aludir a una etiqueta o un marcador, lo que tiene cierta relevancia para el retail. La paleta de colores es enérgica.",
+        "legibilidad_escalabilidad": "Excelente. El diseño es simple, audaz y con alto contraste. Funcionará perfectamente en cualquier tamaño, desde un favicon a una valla.",
+        "impacto_visual": "Es fuerte, directo y fácil de recordar. La simplicidad y el color naranja brillante le confieren un gran impacto visual.",
+        "versatilidad_cromatica": "Muy versátil. La versión a un solo color funciona perfectamente, convirtiéndose en una forma contorneada. Se adapta bien a cualquier fondo.",
+        "innovacion_tecnologica": "Comunica 'tecnología' de una manera muy general. Carece de elementos que sugieran específicamente visión por computadora, precisión o análisis avanzado."
+      },
+      "tanda": 3,
+      "nombre_archivo": "ai_studio_code (2).txt",
+      "posicion_en_tanda": 5,
+      "id_global": 25,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 71.67,
+      "ranking_global": 3,
+      "logo_id_original": "tanda_3_logo_05.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_61.png",
+      "scores": {
+        "originalidad": 7,
+        "adecuacion_marca": 9,
+        "legibilidad_escalabilidad": 3,
+        "impacto_visual": 7,
+        "versatilidad_cromatica": 8,
+        "innovacion_tecnologica": 9
+      },
+      "total": 43,
+      "justificacion": {
+        "originalidad": "Una variación de un concepto fuerte ya visto. La adición del tagline es un cambio, pero el núcleo del logo es el mismo.",
+        "adecuacion_marca": "El logo en sí es excelente. El tagline 'PixeL - ProducT' aclara explícitamente el negocio, lo cual es muy bueno para la adecuación.",
+        "legibilidad_escalabilidad": "El principal problema es el tagline. Es demasiado pequeño y su capitalización es extraña, lo que lo hace completamente ilegible en tamaños reducidos. Esto penaliza mucho la puntuación.",
+        "impacto_visual": "El logo principal es fuerte e inteligente. El tagline, sin embargo, añade desorden visual y resta elegancia al conjunto.",
+        "versatilidad_cromatica": "El logo principal es muy versátil. Para muchas aplicaciones, el tagline tendría que ser eliminado.",
+        "innovacion_tecnologica": "El concepto del marco que rodea a 'fAI' como un cuadro delimitador sigue siendo una representación brillante de la visión por computadora."
+      },
+      "tanda": 4,
+      "nombre_archivo": "ai_studio_code (3).txt",
+      "posicion_en_tanda": 12,
+      "id_global": 42,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 71.67,
+      "ranking_global": 4,
+      "logo_id_original": "tanda_4_logo_12.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_01.png",
+      "scores": {
+        "originalidad": 6,
+        "adecuacion_marca": 8,
+        "legibilidad_escalabilidad": 7,
+        "impacto_visual": 6,
+        "versatilidad_cromatica": 8,
+        "innovacion_tecnologica": 7
+      },
+      "total": 42,
+      "justificacion": {
+        "originalidad": "El uso de corchetes como marco es un recurso conocido, pero la composición general con la línea y los puntos le da un toque distintivo y profesional.",
+        "adecuacion_marca": "La paleta de azules transmite seriedad y tecnología. Los corchetes aluden a un encuadre o foco, lo cual es muy pertinente para la visión por computadora. Se percibe como una marca confiable.",
+        "legibilidad_escalabilidad": "La tipografía es muy clara. Sin embargo, los puntos debajo de la línea son un detalle muy fino que se perderá por completo en tamaños pequeños.",
+        "impacto_visual": "Es un logo profesional y limpio, pero no genera un gran impacto o recordación inmediata. Su enfoque es más corporativo y sobrio que llamativo.",
+        "versatilidad_cromatica": "La estructura es simple y funcionaría bien en monocromo, aunque se perdería el matiz entre los dos tonos de azul. Es adaptable a fondos claros y oscuros.",
+        "innovacion_tecnologica": "Los corchetes sugieren un 'bounding box' de software de visión y la línea que se transforma en puntos evoca el procesamiento de datos. Comunica bien el aspecto tecnológico."
+      },
+      "tanda": 1,
+      "nombre_archivo": "ai_studio_code.txt",
+      "posicion_en_tanda": 1,
+      "id_global": 1,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 70.0,
+      "ranking_global": 5,
+      "logo_id_original": "tanda_1_logo_01.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_27.png",
+      "scores": {
+        "originalidad": 5,
+        "adecuacion_marca": 8,
+        "legibilidad_escalabilidad": 7,
+        "impacto_visual": 7,
+        "versatilidad_cromatica": 8,
+        "innovacion_tecnologica": 7
+      },
+      "total": 42,
+      "justificacion": {
+        "originalidad": "La tipografía con una 'A' estilizada y la línea de puntos son elementos limpios y modernos, pero bastante comunes en el branding de empresas tecnológicas.",
+        "adecuacion_marca": "Transmite profesionalismo, tecnología y precisión. La paleta de colores es corporativa y confiable. Los puntos como flujo de datos se ajustan bien al propósito.",
+        "legibilidad_escalabilidad": "El nombre es muy claro. La línea de puntos es el único elemento que podría perder algo de definición en tamaños muy pequeños, pero el logo en general escala bien.",
+        "impacto_visual": "Es un logo elegante y equilibrado. Su impacto no es explosivo, sino que proviene de su limpieza y profesionalismo. Es fácil de recordar.",
+        "versatilidad_cromatica": "Aunque tiene un sutil gradiente en los puntos, el logo funcionaría casi igual de bien en un solo color. Es bastante versátil.",
+        "innovacion_tecnologica": "La combinación de una tipografía moderna y la representación de datos mediante puntos comunica eficazmente la naturaleza tecnológica de la empresa."
+      },
+      "tanda": 3,
+      "nombre_archivo": "ai_studio_code (2).txt",
+      "posicion_en_tanda": 6,
+      "id_global": 26,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 70.0,
+      "ranking_global": 6,
+      "logo_id_original": "tanda_3_logo_06.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_37.png",
+      "scores": {
+        "originalidad": 4,
+        "adecuacion_marca": 7,
+        "legibilidad_escalabilidad": 10,
+        "impacto_visual": 6,
+        "versatilidad_cromatica": 10,
+        "innovacion_tecnologica": 5
+      },
+      "total": 42,
+      "justificacion": {
+        "originalidad": "Encerrar parte del nombre en una forma es un recurso muy común. La forma de hoja o escudo inclinado es limpia, pero no es una idea novedosa.",
+        "adecuacion_marca": "Destaca 'AI' de forma efectiva. La paleta de colores verde/negro es moderna y transmite tecnología y éxito. Se adapta bien al sector.",
+        "legibilidad_escalabilidad": "Perfecta. Las formas son audaces, simples y de alto contraste. Se reproducirá sin problemas en cualquier tamaño.",
+        "impacto_visual": "Es un logo limpio y fuerte, pero carece de un elemento verdaderamente distintivo que lo haga memorable. Es funcionalmente sólido.",
+        "versatilidad_cromatica": "Excelente versatilidad. El diseño simple funciona a la perfección en un solo color, ya sea en positivo o en negativo.",
+        "innovacion_tecnologica": "La idea de un 'contenedor' para la IA es bastante básica y no comunica conceptos más avanzados como la visión o el análisis de precisión."
+      },
+      "tanda": 4,
+      "nombre_archivo": "ai_studio_code (3).txt",
+      "posicion_en_tanda": 2,
+      "id_global": 32,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 70.0,
+      "ranking_global": 7,
+      "logo_id_original": "tanda_4_logo_02.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_55.png",
+      "scores": {
+        "originalidad": 6,
+        "adecuacion_marca": 8,
+        "legibilidad_escalabilidad": 4,
+        "impacto_visual": 8,
+        "versatilidad_cromatica": 8,
+        "innovacion_tecnologica": 8
+      },
+      "total": 42,
+      "justificacion": {
+        "originalidad": "La integración de la desintegración en píxeles en la última letra del nombre es una ejecución elegante de un concepto conocido.",
+        "adecuacion_marca": "Los píxeles se conectan directamente con la visión digital y el flujo sugiere procesamiento de datos. La paleta de colores es vibrante y tecnológica.",
+        "legibilidad_escalabilidad": "La legibilidad de la letra 'g' se ve comprometida. La corriente de píxeles es demasiado detallada y perderá su forma y claridad en tamaños pequeños.",
+        "impacto_visual": "Es muy dinámico y moderno. El verde neón sobre el negro crea un alto contraste y un fuerte impacto visual que es fácil de recordar.",
+        "versatilidad_cromatica": "El diseño de dos colores es bastante robusto y se puede adaptar a una versión monocromática con relativa facilidad.",
+        "innovacion_tecnologica": "Comunica de manera muy efectiva la idea de digitalización, análisis y flujo de datos, que son el núcleo de la tecnología de la marca."
+      },
+      "tanda": 4,
+      "nombre_archivo": "ai_studio_code (3).txt",
+      "posicion_en_tanda": 4,
+      "id_global": 34,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 70.0,
+      "ranking_global": 8,
+      "logo_id_original": "tanda_4_logo_04.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_60.png",
+      "scores": {
+        "originalidad": 5,
+        "adecuacion_marca": 7,
+        "legibilidad_escalabilidad": 6,
+        "impacto_visual": 8,
+        "versatilidad_cromatica": 7,
+        "innovacion_tecnologica": 8
+      },
+      "total": 41,
+      "justificacion": {
+        "originalidad": "Una versión recoloreada de un concepto de marco ya visto. La combinación de colores azul y naranja es audaz pero común.",
+        "adecuacion_marca": "El concepto de marco y la línea de datos son muy relevantes para la visión por computadora. La paleta de colores es enérgica.",
+        "legibilidad_escalabilidad": "El texto es claro. La línea de puntos finos es el único punto débil en cuanto a la escalabilidad.",
+        "impacto_visual": "La combinación de colores complementarios (azul/naranja) crea un contraste muy alto y un fuerte impacto visual.",
+        "versatilidad_cromatica": "El diseño de dos colores es fuerte y se puede adaptar a una versión monocromática, aunque se perdería el énfasis del color.",
+        "innovacion_tecnologica": "El marco como 'bounding box' sigue siendo una de las metáforas visuales más fuertes y directas para la tecnología de la marca."
+      },
+      "tanda": 4,
+      "nombre_archivo": "ai_studio_code (3).txt",
+      "posicion_en_tanda": 23,
+      "id_global": 53,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 68.33,
+      "ranking_global": 9,
+      "logo_id_original": "tanda_4_logo_23.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_18.png",
+      "scores": {
+        "originalidad": 6,
+        "adecuacion_marca": 8,
+        "legibilidad_escalabilidad": 5,
+        "impacto_visual": 7,
+        "versatilidad_cromatica": 6,
+        "innovacion_tecnologica": 8
+      },
+      "total": 40,
+      "justificacion": {
+        "originalidad": "El uso de píxeles para formar una forma abstracta (una flecha o un punto de enfoque) es una ejecución creativa de un concepto común.",
+        "adecuacion_marca": "Los píxeles se conectan con la visión digital, y la forma de flecha sugiere precisión, enfoque o 'profundizar' en los datos. Muy relevante.",
+        "legibilidad_escalabilidad": "El texto es claro. La forma de píxeles, al estar compuesta por muchos elementos pequeños, puede perder su nitidez y forma a tamaños reducidos.",
+        "impacto_visual": "La forma es dinámica y la paleta de colores es fuerte. Crea un punto de interés visual que atrae la mirada.",
+        "versatilidad_cromatica": "La dependencia de tres colores (verde, gris, negro) complica un poco la adaptación a un solo color, pero la forma general es lo suficientemente distintiva como para funcionar.",
+        "innovacion_tecnologica": "La idea de que la IA organiza los datos visuales (píxeles) para encontrar un punto de enfoque o dirección es una excelente metáfora tecnológica."
+      },
+      "tanda": 4,
+      "nombre_archivo": "ai_studio_code (3).txt",
+      "posicion_en_tanda": 10,
+      "id_global": 40,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 66.67,
+      "ranking_global": 10,
+      "logo_id_original": "tanda_4_logo_10.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_02.png",
+      "scores": {
+        "originalidad": 5,
+        "adecuacion_marca": 7,
+        "legibilidad_escalabilidad": 7,
+        "impacto_visual": 7,
+        "versatilidad_cromatica": 6,
+        "innovacion_tecnologica": 7
+      },
+      "total": 39,
+      "justificacion": {
+        "originalidad": "Es una variación cromática del logo anterior. La combinación de azul y verde lima es muy común en el sector tecnológico, lo que le resta originalidad.",
+        "adecuacion_marca": "El color verde resalta 'AI' y puede asociarse con 'aprobado' o 'éxito', lo cual es relevante para el análisis. Mantiene el carácter tecnológico y de enfoque.",
+        "legibilidad_escalabilidad": "La legibilidad de la tipografía es buena. El contraste entre el verde y el azul es alto. Persiste el problema de escalabilidad de los puntos pequeños.",
+        "impacto_visual": "La paleta de colores es más vibrante y llamativa que la del logo anterior, generando un mayor impacto visual inicial.",
+        "versatilidad_cromatica": "En una versión a un solo color, se perdería el énfasis en 'AI', que es un punto clave del diseño. Requeriría una adaptación específica para monocromo.",
+        "innovacion_tecnologica": "Al igual que el diseño anterior, los elementos de encuadre y los puntos de datos comunican eficazmente el concepto de visión artificial y procesamiento."
+      },
+      "tanda": 1,
+      "nombre_archivo": "ai_studio_code.txt",
+      "posicion_en_tanda": 2,
+      "id_global": 2,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 65.0,
+      "ranking_global": 11,
+      "logo_id_original": "tanda_1_logo_02.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_03.png",
+      "scores": {
+        "originalidad": 4,
+        "adecuacion_marca": 7,
+        "legibilidad_escalabilidad": 8,
+        "impacto_visual": 5,
+        "versatilidad_cromatica": 9,
+        "innovacion_tecnologica": 6
+      },
+      "total": 39,
+      "justificacion": {
+        "originalidad": "El uso de píxeles para formar un isotipo es un cliché en el mundo digital y tecnológico. La ejecución es limpia pero la idea es poco novedosa.",
+        "adecuacion_marca": "El concepto de píxeles se conecta directamente con la visión digital. La paleta de colores es moderna y tecnológica. Se adecúa bien al rubro de la marca.",
+        "legibilidad_escalabilidad": "El nombre es perfectamente legible. El isotipo de píxeles, aunque puede perder algo de nitidez, mantendrá su forma general en tamaños reducidos.",
+        "impacto_visual": "Es un logo correcto y funcional, pero carece de un elemento que lo haga memorable o especialmente atractivo. Resulta algo genérico.",
+        "versatilidad_cromatica": "Su diseño simple de dos colores planos lo hace extremadamente versátil. Funciona perfectamente en blanco y negro y sobre cualquier fondo.",
+        "innovacion_tecnologica": "Representa la tecnología de forma muy literal (píxeles). Comunica 'digital' claramente, pero no necesariamente 'inteligencia artificial avanzada'."
+      },
+      "tanda": 1,
+      "nombre_archivo": "ai_studio_code.txt",
+      "posicion_en_tanda": 3,
+      "id_global": 3,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 65.0,
+      "ranking_global": 12,
+      "logo_id_original": "tanda_1_logo_03.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_04.png",
+      "scores": {
+        "originalidad": 4,
+        "adecuacion_marca": 7,
+        "legibilidad_escalabilidad": 8,
+        "impacto_visual": 5,
+        "versatilidad_cromatica": 9,
+        "innovacion_tecnologica": 6
+      },
+      "total": 39,
+      "justificacion": {
+        "originalidad": "Este logo es idéntico al anterior. El uso de un isotipo formado por píxeles es un recurso visual común en la industria tecnológica, lo que limita su originalidad.",
+        "adecuacion_marca": "La referencia a los píxeles es directa y pertinente para una empresa de visión por computadora. La paleta de colores es apropiada para el sector.",
+        "legibilidad_escalabilidad": "La tipografía sans-serif garantiza una buena legibilidad. El isotipo es lo suficientemente simple como para escalar bien en la mayoría de las aplicaciones.",
+        "impacto_visual": "El diseño es limpio y profesional, pero no destaca visualmente. Su naturaleza es más funcional que impactante.",
+        "versatilidad_cromatica": "Excelente versatilidad. La simplicidad de las formas y los colores planos aseguran una reproducción perfecta en monocromo y sobre fondos diversos.",
+        "innovacion_tecnologica": "La alusión a los píxeles es una forma básica de representar la tecnología visual. Es efectivo pero no transmite una sensación de innovación de vanguardia."
+      },
+      "tanda": 1,
+      "nombre_archivo": "ai_studio_code.txt",
+      "posicion_en_tanda": 4,
+      "id_global": 4,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 65.0,
+      "ranking_global": 13,
+      "logo_id_original": "tanda_1_logo_04.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_05.png",
+      "scores": {
+        "originalidad": 7,
+        "adecuacion_marca": 8,
+        "legibilidad_escalabilidad": 4,
+        "impacto_visual": 7,
+        "versatilidad_cromatica": 5,
+        "innovacion_tecnologica": 8
+      },
+      "total": 39,
+      "justificacion": {
+        "originalidad": "La idea de píxeles que se organizan y fluyen alrededor del texto es dinámica e interesante, ofreciendo una propuesta visual más elaborada.",
+        "adecuacion_marca": "Representa muy bien el concepto de análisis de datos visuales (píxeles) y su procesamiento. La paleta de colores es vibrante y tecnológica.",
+        "legibilidad_escalabilidad": "Este es su punto más débil. Los píxeles pequeños y los que se superponen a la letra 'g' se perderán o crearán ruido visual en tamaños reducidos, afectando la legibilidad.",
+        "impacto_visual": "Es visualmente atractivo y dinámico, captura la atención por su sensación de movimiento y procesamiento.",
+        "versatilidad_cromatica": "La superposición de elementos y los múltiples tonos harían compleja su reproducción en un solo color sin perder legibilidad y detalle.",
+        "innovacion_tecnologica": "Comunica de forma muy efectiva la idea de procesamiento de datos, análisis y organización de la información visual, alineándose con la IA."
+      },
+      "tanda": 1,
+      "nombre_archivo": "ai_studio_code.txt",
+      "posicion_en_tanda": 5,
+      "id_global": 5,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 65.0,
+      "ranking_global": 14,
+      "logo_id_original": "tanda_1_logo_05.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_12.png",
+      "scores": {
+        "originalidad": 7,
+        "adecuacion_marca": 8,
+        "legibilidad_escalabilidad": 5,
+        "impacto_visual": 7,
+        "versatilidad_cromatica": 4,
+        "innovacion_tecnologica": 8
+      },
+      "total": 39,
+      "justificacion": {
+        "originalidad": "La combinación de una forma orgánica y suave que envuelve la 'AI' con los píxeles duros y digitales debajo crea un contraste interesante y original.",
+        "adecuacion_marca": "Representa bien la dualidad de la tecnología (píxeles) y un enfoque más accesible o de 'lente' (la forma orgánica). Se alinea con los valores de la marca.",
+        "legibilidad_escalabilidad": "La tipografía principal es clara. Sin embargo, los píxeles sueltos en la parte inferior son demasiado pequeños y se perderán. La 'AI' en negativo dentro de la forma también puede perder definición al escalar.",
+        "impacto_visual": "Es visualmente atractivo y moderno. La composición es dinámica y la paleta de colores es profesional y agradable.",
+        "versatilidad_cromatica": "La superposición de la forma y el texto en negativo hacen que la versión a un solo color sea problemática. Requeriría una versión contorneada específica.",
+        "innovacion_tecnologica": "Comunica bien la idea de enfocar la inteligencia artificial en datos visuales (píxeles), lo que es una representación conceptual fuerte."
+      },
+      "tanda": 2,
+      "nombre_archivo": "ai_studio_code (1).txt",
+      "posicion_en_tanda": 3,
+      "id_global": 13,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 65.0,
+      "ranking_global": 15,
+      "logo_id_original": "tanda_2_logo_03.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_17.png",
+      "scores": {
+        "originalidad": 7,
+        "adecuacion_marca": 9,
+        "legibilidad_escalabilidad": 4,
+        "impacto_visual": 7,
+        "versatilidad_cromatica": 3,
+        "innovacion_tecnologica": 9
+      },
+      "total": 39,
+      "justificacion": {
+        "originalidad": "La idea de usar transparencia en las letras 'AI' para crear un efecto de capa o de 'ver a través' es creativa y se distingue de otras propuestas.",
+        "adecuacion_marca": "La metáfora visual es excelente para la visión por computadora. Los corchetes enmarcan, y la transparencia de 'AI' sugiere análisis profundo y superposición de datos.",
+        "legibilidad_escalabilidad": "El efecto de transparencia puede crear problemas de legibilidad en tamaños pequeños, donde las partes superpuestas pueden volverse confusas o 'sucias'.",
+        "impacto_visual": "Es un diseño inteligente y que llama la atención, invitando a una segunda mirada para entender el efecto. Resulta moderno y sofisticado.",
+        "versatilidad_cromatica": "La transparencia es un efecto difícil de replicar en sistemas de un solo color o en ciertos medios de producción, lo que limita severamente su versatilidad.",
+        "innovacion_tecnologica": "Comunica de forma brillante y sofisticada la idea de una IA que analiza capas de información visual. Muy innovador conceptualmente."
+      },
+      "tanda": 3,
+      "nombre_archivo": "ai_studio_code (2).txt",
+      "posicion_en_tanda": 4,
+      "id_global": 24,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 65.0,
+      "ranking_global": 16,
+      "logo_id_original": "tanda_3_logo_04.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_09.png",
+      "scores": {
+        "originalidad": 3,
+        "adecuacion_marca": 6,
+        "legibilidad_escalabilidad": 10,
+        "impacto_visual": 5,
+        "versatilidad_cromatica": 10,
+        "innovacion_tecnologica": 4
+      },
+      "total": 38,
+      "justificacion": {
+        "originalidad": "Encapsular parte de un nombre en una forma de icono de app es uno de los recursos más comunes y genéricos en el diseño de logos para tecnología.",
+        "adecuacion_marca": "Resalta 'AI' y se asocia con software/apps, por lo que es adecuado. Sin embargo, carece de la especificidad para 'visión' o 'análisis de góndolas'.",
+        "legibilidad_escalabilidad": "Perfecta. Las formas son simples, claras y audaces. Este logo funcionará sin problemas en cualquier tamaño, desde un favicon hasta una valla publicitaria.",
+        "impacto_visual": "Es amigable y limpio, pero no tiene ningún rasgo distintivo. Es fácil de ignorar por su similitud con miles de otros logos de apps.",
+        "versatilidad_cromatica": "Máxima versatilidad. Su simplicidad garantiza una reproducción impecable en cualquier sistema de color, fondo o técnica de impresión.",
+        "innovacion_tecnologica": "La alusión a un icono de app es una representación muy superficial de la tecnología. No transmite la idea de una IA compleja o avanzada."
+      },
+      "tanda": 1,
+      "nombre_archivo": "ai_studio_code.txt",
+      "posicion_en_tanda": 9,
+      "id_global": 9,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 63.33,
+      "ranking_global": 17,
+      "logo_id_original": "tanda_1_logo_09.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_10.png",
+      "scores": {
+        "originalidad": 5,
+        "adecuacion_marca": 7,
+        "legibilidad_escalabilidad": 6,
+        "impacto_visual": 7,
+        "versatilidad_cromatica": 5,
+        "innovacion_tecnologica": 7
+      },
+      "total": 37,
+      "justificacion": {
+        "originalidad": "Combina elementos ya vistos en otras propuestas (corchetes, matriz de puntos con gradiente). Es una remezcla competente pero no una idea nueva.",
+        "adecuacion_marca": "Los elementos combinados (encuadre y matriz de datos) son pertinentes para la marca y comunican bien su propósito de análisis visual.",
+        "legibilidad_escalabilidad": "La tipografía es clara. La matriz de puntos con gradiente presenta problemas de escalabilidad, ya que los puntos más claros se desvanecerán en tamaños pequeños.",
+        "impacto_visual": "El color cian es vibrante y le da un aspecto moderno y enérgico. La composición es equilibrada y resulta visualmente agradable.",
+        "versatilidad_cromatica": "El gradiente en los puntos es una parte importante del concepto (procesamiento), y se perdería en una versión monocromática, lo que limita su versatilidad.",
+        "innovacion_tecnologica": "La combinación del 'viewfinder' y la matriz de datos/píxeles es una buena representación visual de la tecnología de visión por computadora y el análisis de datos."
+      },
+      "tanda": 1,
+      "nombre_archivo": "ai_studio_code.txt",
+      "posicion_en_tanda": 10,
+      "id_global": 10,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 61.67,
+      "ranking_global": 18,
+      "logo_id_original": "tanda_1_logo_10.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_21.png",
+      "scores": {
+        "originalidad": 6,
+        "adecuacion_marca": 8,
+        "legibilidad_escalabilidad": 5,
+        "impacto_visual": 7,
+        "versatilidad_cromatica": 4,
+        "innovacion_tecnologica": 7
+      },
+      "total": 37,
+      "justificacion": {
+        "originalidad": "Una versión recoloreada de un diseño anterior. El concepto del marco y la línea de datos es sólido pero ya ha sido evaluado.",
+        "adecuacion_marca": "El marco como 'viewfinder' y la línea de datos siguen siendo muy pertinentes para la marca. La paleta naranja/gris es profesional y cálida.",
+        "legibilidad_escalabilidad": "El texto es claro, pero la línea de puntos con gradiente es un punto débil para la escalabilidad, ya que los puntos más claros desaparecerán.",
+        "impacto_visual": "El marco le da una fuerte presencia y la paleta de colores es agradable. Tiene un buen impacto visual.",
+        "versatilidad_cromatica": "El gradiente en la línea de puntos es problemático para la reproducción en un solo color, ya que se pierde parte del concepto.",
+        "innovacion_tecnologica": "La combinación de un marco de enfoque y un flujo de datos es una representación muy completa de la tecnología de la empresa."
+      },
+      "tanda": 4,
+      "nombre_archivo": "ai_studio_code (3).txt",
+      "posicion_en_tanda": 11,
+      "id_global": 41,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 61.67,
+      "ranking_global": 19,
+      "logo_id_original": "tanda_4_logo_11.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_07.png",
+      "scores": {
+        "originalidad": 4,
+        "adecuacion_marca": 6,
+        "legibilidad_escalabilidad": 6,
+        "impacto_visual": 7,
+        "versatilidad_cromatica": 8,
+        "innovacion_tecnologica": 5
+      },
+      "total": 36,
+      "justificacion": {
+        "originalidad": "Nuevamente, un diseño basado en píxeles que se desintegran o forman una figura. Es un recurso visual muy explotado en el sector tecnológico.",
+        "adecuacion_marca": "Los píxeles conectan con la visión digital. La forma podría ser una esquina de encuadre o un checkmark (verificación), lo cual es pertinente.",
+        "legibilidad_escalabilidad": "La tipografía es legible. El elemento de píxeles puede volverse un manchón indefinido en tamaños muy pequeños, perdiendo su forma.",
+        "impacto_visual": "El color verde neón es muy llamativo y moderno, lo que le otorga un impacto visual considerable a pesar de la simpleza del concepto.",
+        "versatilidad_cromatica": "La simplicidad de la forma y el color lo hacen bastante adaptable a versiones monocromáticas y diferentes fondos.",
+        "innovacion_tecnologica": "Es una representación muy directa y algo básica de lo 'digital'. Comunica tecnología, pero de una manera poco sofisticada."
+      },
+      "tanda": 1,
+      "nombre_archivo": "ai_studio_code.txt",
+      "posicion_en_tanda": 7,
+      "id_global": 7,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 60.0,
+      "ranking_global": 20,
+      "logo_id_original": "tanda_1_logo_07.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_40.png",
+      "scores": {
+        "originalidad": 5,
+        "adecuacion_marca": 8,
+        "legibilidad_escalabilidad": 6,
+        "impacto_visual": 6,
+        "versatilidad_cromatica": 4,
+        "innovacion_tecnologica": 7
+      },
+      "total": 36,
+      "justificacion": {
+        "originalidad": "Una versión minimalista del concepto de flujo de datos, utilizando cuadrados en lugar de puntos. Es una ejecución limpia pero no muy original.",
+        "adecuacion_marca": "Las dos filas de cuadrados pueden evocar productos en una estantería o un código de barras, lo que es muy relevante. El gradiente sugiere análisis.",
+        "legibilidad_escalabilidad": "El texto es claro. Los cuadrados son pequeños y el gradiente se perderá, pero la forma general de las dos líneas se mantendrá razonablemente bien.",
+        "impacto_visual": "Tiene una apariencia profesional, limpia y ordenada. Su impacto es más de confianza corporativa que de emoción visual.",
+        "versatilidad_cromatica": "El gradiente de color es una parte importante del concepto (proceso), por lo que se perdería en una versión de un solo color.",
+        "innovacion_tecnologica": "La representación de una cuadrícula de datos que se procesa (cambia de color) es una metáfora clara y efectiva para la tecnología de análisis."
+      },
+      "tanda": 4,
+      "nombre_archivo": "ai_studio_code (3).txt",
+      "posicion_en_tanda": 5,
+      "id_global": 35,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 60.0,
+      "ranking_global": 21,
+      "logo_id_original": "tanda_4_logo_05.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_06.png",
+      "scores": {
+        "originalidad": 6,
+        "adecuacion_marca": 7,
+        "legibilidad_escalabilidad": 5,
+        "impacto_visual": 6,
+        "versatilidad_cromatica": 4,
+        "innovacion_tecnologica": 7
+      },
+      "total": 35,
+      "justificacion": {
+        "originalidad": "El uso de un gradiente de puntos para formar una línea es una ejecución elegante, aunque no es un concepto nuevo. La paleta naranja/gris le da cierta diferenciación.",
+        "adecuacion_marca": "La línea de puntos puede interpretarse como un escaneo o un flujo de datos, lo cual es adecuado. Transmite una sensación de precisión y análisis.",
+        "legibilidad_escalabilidad": "La tipografía es clara. Sin embargo, el gradiente de puntos es problemático: los puntos más pequeños y claros desaparecerán por completo al reducir el tamaño.",
+        "impacto_visual": "Tiene una estética sofisticada y limpia. El naranja aporta calidez, pero el conjunto puede resultar demasiado sutil y poco memorable.",
+        "versatilidad_cromatica": "El gradiente es esencial para el concepto del logo, por lo que se perdería por completo en una versión a un solo color. Su versatilidad es baja.",
+        "innovacion_tecnologica": "La idea de un flujo de datos que se procesa o se mide (representado por el gradiente) es una buena metáfora para la tecnología de análisis."
+      },
+      "tanda": 1,
+      "nombre_archivo": "ai_studio_code.txt",
+      "posicion_en_tanda": 6,
+      "id_global": 6,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 58.33,
+      "ranking_global": 22,
+      "logo_id_original": "tanda_1_logo_06.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_13.png",
+      "scores": {
+        "originalidad": 5,
+        "adecuacion_marca": 8,
+        "legibilidad_escalabilidad": 4,
+        "impacto_visual": 6,
+        "versatilidad_cromatica": 5,
+        "innovacion_tecnologica": 7
+      },
+      "total": 35,
+      "justificacion": {
+        "originalidad": "El concepto de un flujo de datos pixelado es común, pero la ejecución en múltiples capas que se asemejan a un código de barras o a un análisis de estantería es una interpretación interesante.",
+        "adecuacion_marca": "Se alinea muy bien con el análisis de góndolas. El flujo de píxeles sugiere datos y el resaltado de 'AI' es claro. Transmite tecnología y análisis de retail.",
+        "legibilidad_escalabilidad": "La tipografía es legible, pero el elemento gráfico inferior es demasiado detallado. En tamaños pequeños, las tres filas de píxeles se fusionarán en una mancha confusa.",
+        "impacto_visual": "Es profesional y tiene una apariencia técnica, pero la complejidad del elemento gráfico puede hacerlo un poco pesado visualmente y no es instantáneamente memorable.",
+        "versatilidad_cromatica": "La dependencia de tres colores (verde, gris, negro) para diferenciar las capas de datos complica su adaptación a un solo color sin perder el significado.",
+        "innovacion_tecnologica": "Representa eficazmente el concepto de escaneo, recopilación y análisis de datos visuales a nivel de píxel, lo cual es muy pertinente."
+      },
+      "tanda": 2,
+      "nombre_archivo": "ai_studio_code (1).txt",
+      "posicion_en_tanda": 1,
+      "id_global": 11,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 58.33,
+      "ranking_global": 23,
+      "logo_id_original": "tanda_2_logo_01.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_19.png",
+      "scores": {
+        "originalidad": 5,
+        "adecuacion_marca": 8,
+        "legibilidad_escalabilidad": 4,
+        "impacto_visual": 6,
+        "versatilidad_cromatica": 5,
+        "innovacion_tecnologica": 7
+      },
+      "total": 35,
+      "justificacion": {
+        "originalidad": "Este logo es idéntico al primero de esta tanda. El concepto de un flujo de datos pixelado es común, pero la ejecución en múltiples capas que se asemejan a un código de barras o a un análisis de estantería es una interpretación interesante.",
+        "adecuacion_marca": "Se alinea muy bien con el análisis de góndolas. El flujo de píxeles sugiere datos y el resaltado de 'AI' es claro. Transmite tecnología y análisis de retail.",
+        "legibilidad_escalabilidad": "La tipografía es legible, pero el elemento gráfico inferior es demasiado detallado. En tamaños pequeños, las tres filas de píxeles se fusionarán en una mancha confusa.",
+        "impacto_visual": "Es profesional y tiene una apariencia técnica, pero la complejidad del elemento gráfico puede hacerlo un poco pesado visualmente y no es instantáneamente memorable.",
+        "versatilidad_cromatica": "La dependencia de tres colores (verde, gris, negro) para diferenciar las capas de datos complica su adaptación a un solo color sin perder el significado.",
+        "innovacion_tecnologica": "Representa eficazmente el concepto de escaneo, recopilación y análisis de datos visuales a nivel de píxel, lo cual es muy pertinente."
+      },
+      "tanda": 2,
+      "nombre_archivo": "ai_studio_code (1).txt",
+      "posicion_en_tanda": 10,
+      "id_global": 20,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 58.33,
+      "ranking_global": 24,
+      "logo_id_original": "tanda_2_logo_10.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_23.png",
+      "scores": {
+        "originalidad": 4,
+        "adecuacion_marca": 8,
+        "legibilidad_escalabilidad": 5,
+        "impacto_visual": 6,
+        "versatilidad_cromatica": 5,
+        "innovacion_tecnologica": 7
+      },
+      "total": 35,
+      "justificacion": {
+        "originalidad": "Es una variante de un concepto ya visto: un logotivo sobre una barra de píxeles. La idea es funcional pero carece de novedad en el sector tecnológico.",
+        "adecuacion_marca": "Muy adecuado para el análisis de estanterías, ya que las barras de píxeles pueden evocar productos en una góndola o un código de barras. El énfasis en 'AI' es claro.",
+        "legibilidad_escalabilidad": "El nombre es legible. El elemento gráfico de píxeles es bastante detallado y en tamaños pequeños corre el riesgo de convertirse en una mancha borrosa.",
+        "impacto_visual": "Es un logo profesional y limpio, pero se siente como un arquetipo de logo tecnológico. Es correcto pero no particularmente memorable.",
+        "versatilidad_cromatica": "La dependencia de tres colores y un gradiente sutil en los píxeles complica su adaptación. En monocromo, se perdería el énfasis y el detalle.",
+        "innovacion_tecnologica": "Representa bien el análisis de datos a nivel de píxel. El gradiente sugiere un proceso de clasificación o análisis, lo cual es pertinente."
+      },
+      "tanda": 3,
+      "nombre_archivo": "ai_studio_code (2).txt",
+      "posicion_en_tanda": 3,
+      "id_global": 23,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 58.33,
+      "ranking_global": 25,
+      "logo_id_original": "tanda_3_logo_03.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_52.png",
+      "scores": {
+        "originalidad": 6,
+        "adecuacion_marca": 8,
+        "legibilidad_escalabilidad": 3,
+        "impacto_visual": 7,
+        "versatilidad_cromatica": 3,
+        "innovacion_tecnologica": 8
+      },
+      "total": 35,
+      "justificacion": {
+        "originalidad": "La combinación de un marco, una matriz de puntos y un efecto de 'desintegración' es una mezcla interesante de elementos ya vistos.",
+        "adecuacion_marca": "El marco sugiere enfoque, mientras que los puntos que se desprenden son una excelente metáfora visual para el análisis y la extracción de datos.",
+        "legibilidad_escalabilidad": "El texto principal es claro, pero la matriz de puntos y los puntos sueltos son demasiado pequeños y detallados, lo que compromete gravemente la legibilidad a pequeña escala.",
+        "impacto_visual": "El color rojo fuerte y la sensación de movimiento le dan un impacto visual considerable y lo hacen dinámico.",
+        "versatilidad_cromatica": "El gradiente de color en los puntos es crucial para el efecto, lo que dificulta su reproducción en un solo color.",
+        "innovacion_tecnologica": "La idea de deconstruir una imagen o una línea de base en puntos de datos es una representación muy fuerte y adecuada de la IA de visión por computadora."
+      },
+      "tanda": 4,
+      "nombre_archivo": "ai_studio_code (3).txt",
+      "posicion_en_tanda": 1,
+      "id_global": 31,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 58.33,
+      "ranking_global": 26,
+      "logo_id_original": "tanda_4_logo_01.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_30.png",
+      "scores": {
+        "originalidad": 5,
+        "adecuacion_marca": 8,
+        "legibilidad_escalabilidad": 2,
+        "impacto_visual": 8,
+        "versatilidad_cromatica": 2,
+        "innovacion_tecnologica": 9
+      },
+      "total": 34,
+      "justificacion": {
+        "originalidad": "El efecto de 'desintegración de píxeles' es un tropo visual conocido, pero su ejecución aquí es dramática y está bien integrada con el logotipo.",
+        "adecuacion_marca": "La idea de deconstruir la realidad (la línea de base) en datos (píxeles) es una metáfora visual muy potente y adecuada para la visión por computadora.",
+        "legibilidad_escalabilidad": "El logotipo es claro, pero el campo masivo de puntos diminutos es un desastre para la escalabilidad. A tamaños pequeños, se convertirá en una mancha ruidosa e indefinida.",
+        "impacto_visual": "El efecto es muy llamativo y dinámico. El color rojo intenso lo hace audaz y agresivo, capturando la atención de inmediato.",
+        "versatilidad_cromatica": "El diseño depende completamente del gradiente de dos colores en los puntos para funcionar. No se puede reproducir en un solo color.",
+        "innovacion_tecnologica": "Comunica de manera excelente el concepto de análisis profundo, deconstrucción de imágenes y procesamiento masivo de datos. Muy fuerte en este aspecto."
+      },
+      "tanda": 3,
+      "nombre_archivo": "ai_studio_code (2).txt",
+      "posicion_en_tanda": 9,
+      "id_global": 29,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 56.67,
+      "ranking_global": 27,
+      "logo_id_original": "tanda_3_logo_09.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_59.png",
+      "scores": {
+        "originalidad": 6,
+        "adecuacion_marca": 7,
+        "legibilidad_escalabilidad": 4,
+        "impacto_visual": 6,
+        "versatilidad_cromatica": 4,
+        "innovacion_tecnologica": 7
+      },
+      "total": 34,
+      "justificacion": {
+        "originalidad": "La combinación de una forma de cápsula orgánica con elementos de píxeles es una mezcla interesante de conceptos, aunque los elementos por separado son comunes.",
+        "adecuacion_marca": "Destaca 'AI' y los píxeles aluden a la visión digital. La superposición de la 'c' sobre la forma se siente un poco forzada pero el concepto general es adecuado.",
+        "legibilidad_escalabilidad": "Los píxeles en la parte inferior son demasiado pequeños y se perderán. La 'AI' en negativo y la 'c' superpuesta pueden perder claridad en tamaños reducidos.",
+        "impacto_visual": "El diseño es moderno y tiene una paleta de colores agradable, pero la composición es algo compleja y no logra un impacto fuerte e inmediato.",
+        "versatilidad_cromatica": "La versión en un solo color sería problemática debido al texto en negativo y la superposición. Requeriría una versión simplificada para ser versátil.",
+        "innovacion_tecnologica": "Comunica bien la idea de aplicar un 'lente' de IA (la forma de cápsula) a los datos visuales (los píxeles), lo cual es una buena metáfora."
+      },
+      "tanda": 3,
+      "nombre_archivo": "ai_studio_code (2).txt",
+      "posicion_en_tanda": 1,
+      "id_global": 21,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 56.67,
+      "ranking_global": 28,
+      "logo_id_original": "tanda_3_logo_01.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_31.png",
+      "scores": {
+        "originalidad": 5,
+        "adecuacion_marca": 8,
+        "legibilidad_escalabilidad": 2,
+        "impacto_visual": 7,
+        "versatilidad_cromatica": 2,
+        "innovacion_tecnologica": 9
+      },
+      "total": 33,
+      "justificacion": {
+        "originalidad": "Es una variación de color del logo anterior. La idea y ejecución son las mismas, cambiando la paleta de rojo a azul.",
+        "adecuacion_marca": "La metáfora de análisis y deconstrucción de datos sigue siendo muy fuerte. El color azul le da un tono más corporativo y tecnológico que el rojo.",
+        "legibilidad_escalabilidad": "Persiste el mismo problema crítico de escalabilidad: la nube de puntos pequeños no se reproducirá bien en tamaños reducidos.",
+        "impacto_visual": "El efecto sigue siendo dramático. El azul es un color fuerte y confiable en tecnología, por lo que el impacto es alto, aunque quizás menos urgente que el rojo.",
+        "versatilidad_cromatica": "Al igual que su contraparte roja, la dependencia del gradiente en los puntos hace que sea inadecuado para aplicaciones de un solo color.",
+        "innovacion_tecnologica": "La representación visual de la IA deconstruyendo la información visual en datos analizables sigue siendo un concepto tecnológico muy potente y bien ejecutado."
+      },
+      "tanda": 3,
+      "nombre_archivo": "ai_studio_code (2).txt",
+      "posicion_en_tanda": 10,
+      "id_global": 30,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 55.0,
+      "ranking_global": 29,
+      "logo_id_original": "tanda_3_logo_10.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_51.png",
+      "scores": {
+        "originalidad": 3,
+        "adecuacion_marca": 6,
+        "legibilidad_escalabilidad": 9,
+        "impacto_visual": 5,
+        "versatilidad_cromatica": 6,
+        "innovacion_tecnologica": 4
+      },
+      "total": 33,
+      "justificacion": {
+        "originalidad": "Colocar una simple barra de color detrás de una parte del nombre es una técnica de diseño muy básica y poco original.",
+        "adecuacion_marca": "La barra podría interpretarse como una estantería o un bloque de datos, lo que le da cierta relevancia, pero la conexión es débil.",
+        "legibilidad_escalabilidad": "El diseño es simple y audaz, con formas claras. Escalará bien en la mayoría de las aplicaciones.",
+        "impacto_visual": "El bloque gris detrás de 'cing' se siente un poco arbitrario y desequilibrado. No crea un fuerte impacto visual.",
+        "versatilidad_cromatica": "La versión de un solo color sería un poco extraña, ya que el bloque tendría que ser un contorno o desaparecer, cambiando el diseño.",
+        "innovacion_tecnologica": "El bloque no comunica ningún concepto tecnológico específico más allá de la idea de 'estructura' o 'agrupación'."
+      },
+      "tanda": 4,
+      "nombre_archivo": "ai_studio_code (3).txt",
+      "posicion_en_tanda": 15,
+      "id_global": 45,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 55.0,
+      "ranking_global": 30,
+      "logo_id_original": "tanda_4_logo_15.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_28.png",
+      "scores": {
+        "originalidad": 4,
+        "adecuacion_marca": 7,
+        "legibilidad_escalabilidad": 5,
+        "impacto_visual": 6,
+        "versatilidad_cromatica": 3,
+        "innovacion_tecnologica": 7
+      },
+      "total": 32,
+      "justificacion": {
+        "originalidad": "Una versión recoloreada de un concepto ya evaluado (dos filas de puntos/cuadrados con gradiente).",
+        "adecuacion_marca": "El concepto de datos en una cuadrícula que se procesan es relevante. La paleta de colores naranja es enérgica.",
+        "legibilidad_escalabilidad": "El texto es claro, pero los puntos pequeños y el efecto de gradiente se perderán en tamaños reducidos.",
+        "impacto_visual": "Es un diseño limpio y corporativo, pero no particularmente emocionante o memorable.",
+        "versatilidad_cromatica": "El gradiente es una parte integral del diseño, lo que lo hace poco versátil para aplicaciones de un solo color.",
+        "innovacion_tecnologica": "La representación de un flujo de datos en dos líneas es una metáfora clara para el análisis tecnológico."
+      },
+      "tanda": 4,
+      "nombre_archivo": "ai_studio_code (3).txt",
+      "posicion_en_tanda": 13,
+      "id_global": 43,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 53.33,
+      "ranking_global": 31,
+      "logo_id_original": "tanda_4_logo_13.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_14.png",
+      "scores": {
+        "originalidad": 4,
+        "adecuacion_marca": 7,
+        "legibilidad_escalabilidad": 4,
+        "impacto_visual": 6,
+        "versatilidad_cromatica": 3,
+        "innovacion_tecnologica": 7
+      },
+      "total": 31,
+      "justificacion": {
+        "originalidad": "Es otra variante del concepto de flujo de datos pixelado con un gradiente, una idea recurrente en el sector tecnológico.",
+        "adecuacion_marca": "El concepto de una línea de datos que se escanea o procesa (sugerido por el gradiente de color) es relevante para la marca.",
+        "legibilidad_escalabilidad": "La tipografía es clara, pero la línea de puntos es fina y los puntos dispersos debajo son demasiado pequeños. El gradiente se perderá en tamaños reducidos.",
+        "impacto_visual": "Tiene un aspecto limpio y corporativo. El verde le da un toque de vitalidad, pero el diseño en general no es particularmente memorable.",
+        "versatilidad_cromatica": "El gradiente de color es fundamental para el efecto visual, por lo que una versión de un solo color perdería gran parte del concepto. Baja versatilidad.",
+        "innovacion_tecnologica": "La representación de un flujo de datos que cambia a medida que avanza es una metáfora visual clara para el procesamiento y análisis de la IA."
+      },
+      "tanda": 2,
+      "nombre_archivo": "ai_studio_code (1).txt",
+      "posicion_en_tanda": 4,
+      "id_global": 14,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 51.67,
+      "ranking_global": 32,
+      "logo_id_original": "tanda_2_logo_04.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_20.png",
+      "scores": {
+        "originalidad": 4,
+        "adecuacion_marca": 7,
+        "legibilidad_escalabilidad": 4,
+        "impacto_visual": 6,
+        "versatilidad_cromatica": 3,
+        "innovacion_tecnologica": 7
+      },
+      "total": 31,
+      "justificacion": {
+        "originalidad": "Este logo es idéntico al anterior. Es una variante del concepto de flujo de datos pixelado con un gradiente, una idea recurrente en el sector tecnológico.",
+        "adecuacion_marca": "El concepto de una línea de datos que se escanea o procesa (sugerido por el gradiente de color) es relevante para la marca.",
+        "legibilidad_escalabilidad": "La tipografía es clara, pero la línea de puntos es fina y los puntos dispersos debajo son demasiado pequeños. El gradiente se perderá en tamaños reducidos.",
+        "impacto_visual": "Tiene un aspecto limpio y corporativo. El verde le da un toque de vitalidad, pero el diseño en general no es particularmente memorable.",
+        "versatilidad_cromatica": "El gradiente de color es fundamental para el efecto visual, por lo que una versión de un solo color perdería gran parte del concepto. Baja versatilidad.",
+        "innovacion_tecnologica": "La representación de un flujo de datos que cambia a medida que avanza es una metáfora visual clara para el procesamiento y análisis de la IA."
+      },
+      "tanda": 2,
+      "nombre_archivo": "ai_studio_code (1).txt",
+      "posicion_en_tanda": 5,
+      "id_global": 15,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 51.67,
+      "ranking_global": 33,
+      "logo_id_original": "tanda_2_logo_05.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_25.png",
+      "scores": {
+        "originalidad": 5,
+        "adecuacion_marca": 7,
+        "legibilidad_escalabilidad": 3,
+        "impacto_visual": 6,
+        "versatilidad_cromatica": 2,
+        "innovacion_tecnologica": 8
+      },
+      "total": 31,
+      "justificacion": {
+        "originalidad": "El uso de una matriz de puntos que se desvanece es una técnica visual conocida para representar datos o sonido. La paleta de colores coral le da un toque distintivo.",
+        "adecuacion_marca": "El concepto de datos que se procesan o analizan (los puntos que se desvanecen) es muy adecuado. El color cálido puede transmitir accesibilidad.",
+        "legibilidad_escalabilidad": "Este es un punto muy débil. El efecto de gradiente y los puntos más pequeños y claros desaparecerán por completo en tamaños reducidos, rompiendo el diseño.",
+        "impacto_visual": "Es estéticamente agradable y tiene una sensación de movimiento, pero el efecto de desvanecimiento puede hacer que parezca débil o incompleto.",
+        "versatilidad_cromatica": "El diseño depende completamente del gradiente de color y opacidad. Es prácticamente imposible de reproducir en un solo color sólido, lo que lo hace muy poco versátil.",
+        "innovacion_tecnologica": "La metáfora visual del procesamiento de datos (el flujo de puntos que se transforma) es fuerte y comunica bien la idea de una tecnología avanzada de análisis."
+      },
+      "tanda": 2,
+      "nombre_archivo": "ai_studio_code (1).txt",
+      "posicion_en_tanda": 2,
+      "id_global": 12,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 51.67,
+      "ranking_global": 34,
+      "logo_id_original": "tanda_2_logo_02.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_46.png",
+      "scores": {
+        "originalidad": 7,
+        "adecuacion_marca": 8,
+        "legibilidad_escalabilidad": 2,
+        "impacto_visual": 5,
+        "versatilidad_cromatica": 1,
+        "innovacion_tecnologica": 8
+      },
+      "total": 31,
+      "justificacion": {
+        "originalidad": "El uso de un efecto de desenfoque de movimiento o desvanecimiento en la propia tipografía es una aproximación menos común y conceptualmente interesante.",
+        "adecuacion_marca": "El efecto sugiere velocidad, procesamiento y transformación, conceptos muy alineados con una plataforma de IA. Los puntos que se desvanecen refuerzan la idea de datos.",
+        "legibilidad_escalabilidad": "La legibilidad está severamente comprometida por el efecto de desenfoque. En tamaños pequeños, las letras 'fAI' serán casi ilegibles. Los puntos también desaparecerán.",
+        "impacto_visual": "Aunque el efecto es llamativo, la pobre legibilidad le resta impacto y puede hacer que el logo parezca un error de renderizado en lugar de una elección de diseño intencionada.",
+        "versatilidad_cromatica": "El diseño es totalmente dependiente de efectos de gradiente y desenfoque, lo que lo hace imposible de reproducir en un solo color sólido. Versatilidad nula.",
+        "innovacion_tecnologica": "La representación visual del procesamiento de datos en tiempo real o a gran velocidad está muy bien lograda conceptualmente a través de los efectos visuales."
+      },
+      "tanda": 3,
+      "nombre_archivo": "ai_studio_code (2).txt",
+      "posicion_en_tanda": 2,
+      "id_global": 22,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 51.67,
+      "ranking_global": 35,
+      "logo_id_original": "tanda_3_logo_02.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_11.png",
+      "scores": {
+        "originalidad": 4,
+        "adecuacion_marca": 7,
+        "legibilidad_escalabilidad": 3,
+        "impacto_visual": 6,
+        "versatilidad_cromatica": 2,
+        "innovacion_tecnologica": 8
+      },
+      "total": 30,
+      "justificacion": {
+        "originalidad": "Una variación de un concepto ya visto (matriz de puntos con gradiente). La idea es familiar, solo cambia la paleta de colores.",
+        "adecuacion_marca": "La matriz de puntos es una buena representación de los datos visuales (píxeles) y el gradiente sugiere un proceso de análisis. Se adapta bien.",
+        "legibilidad_escalabilidad": "El texto es claro. La matriz de puntos es demasiado detallada y los puntos más claros del gradiente desaparecerán en tamaños pequeños.",
+        "impacto_visual": "La paleta de colores coral es cálida y moderna. El diseño es agradable a la vista pero carece de un elemento único que lo haga memorable.",
+        "versatilidad_cromatica": "El diseño depende totalmente del gradiente para transmitir su idea, por lo que no es versátil para aplicaciones de un solo color.",
+        "innovacion_tecnologica": "La representación de una cuadrícula de datos que se transforma es una metáfora visual muy fuerte para la tecnología de análisis de imágenes."
+      },
+      "tanda": 4,
+      "nombre_archivo": "ai_studio_code (3).txt",
+      "posicion_en_tanda": 8,
+      "id_global": 38,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 50.0,
+      "ranking_global": 36,
+      "logo_id_original": "tanda_4_logo_08.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_41.png",
+      "scores": {
+        "originalidad": 4,
+        "adecuacion_marca": 6,
+        "legibilidad_escalabilidad": 4,
+        "impacto_visual": 5,
+        "versatilidad_cromatica": 3,
+        "innovacion_tecnologica": 7
+      },
+      "total": 29,
+      "justificacion": {
+        "originalidad": "Es una variación de color y tipografía de un concepto ya visto (línea de puntos que se desvanece). La idea central no es nueva.",
+        "adecuacion_marca": "La paleta de colores rojo/gris es seria, pero puede tener connotaciones de 'error' o 'alerta'. El concepto de datos en flujo es adecuado.",
+        "legibilidad_escalabilidad": "La tipografía es clara, pero el elemento clave, la línea de puntos con gradiente, tiene una pobre escalabilidad. Los puntos más claros desaparecerán.",
+        "impacto_visual": "El diseño es limpio pero la paleta de colores es algo apagada. No logra generar un impacto visual fuerte o memorable.",
+        "versatilidad_cromatica": "El efecto de gradiente en los puntos es esencial para el diseño, por lo que no se puede adaptar a un solo color sin perder el concepto.",
+        "innovacion_tecnologica": "La metáfora del flujo de datos que se transforma o analiza sigue siendo una representación efectiva del núcleo tecnológico de la marca."
+      },
+      "tanda": 3,
+      "nombre_archivo": "ai_studio_code (2).txt",
+      "posicion_en_tanda": 7,
+      "id_global": 27,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 48.33,
+      "ranking_global": 37,
+      "logo_id_original": "tanda_3_logo_07.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_48.png",
+      "scores": {
+        "originalidad": 4,
+        "adecuacion_marca": 7,
+        "legibilidad_escalabilidad": 3,
+        "impacto_visual": 6,
+        "versatilidad_cromatica": 2,
+        "innovacion_tecnologica": 7
+      },
+      "total": 29,
+      "justificacion": {
+        "originalidad": "Es una variación de color de un concepto ya evaluado (matriz de puntos con gradiente). La idea no es nueva, solo la paleta cromática.",
+        "adecuacion_marca": "El concepto de escaneo o procesamiento de datos se mantiene y es adecuado. La paleta de colores naranja/gris es moderna y profesional.",
+        "legibilidad_escalabilidad": "Sufre de los mismos problemas de escalabilidad que sus contrapartes: los puntos más pequeños y claros del gradiente desaparecerán al reducir el tamaño.",
+        "impacto_visual": "La combinación de colores es atractiva y tiene buena presencia, pero el concepto subyacente ya ha sido visto.",
+        "versatilidad_cromatica": "Totalmente dependiente del efecto de gradiente para su correcta interpretación. No funciona en un solo color.",
+        "innovacion_tecnologica": "La metáfora del flujo de datos que se analiza y transforma sigue siendo una forma efectiva de comunicar el propósito tecnológico de la marca."
+      },
+      "tanda": 2,
+      "nombre_archivo": "ai_studio_code (1).txt",
+      "posicion_en_tanda": 9,
+      "id_global": 19,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 48.33,
+      "ranking_global": 38,
+      "logo_id_original": "tanda_2_logo_09.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_35.png",
+      "scores": {
+        "originalidad": 5,
+        "adecuacion_marca": 7,
+        "legibilidad_escalabilidad": 3,
+        "impacto_visual": 5,
+        "versatilidad_cromatica": 2,
+        "innovacion_tecnologica": 6
+      },
+      "total": 28,
+      "justificacion": {
+        "originalidad": "El uso de un efecto de extrusión o sombra con un gradiente de desvanecimiento es una técnica interesante, aunque no del todo nueva.",
+        "adecuacion_marca": "El efecto puede sugerir profundidad, procesamiento o movimiento hacia adelante. Los colores son profesionales y se adaptan a una marca tecnológica.",
+        "legibilidad_escalabilidad": "El efecto de gradiente que se desvanece es el principal problema. A tamaños pequeños, se verá como una mancha borrosa, afectando la claridad del logo.",
+        "impacto_visual": "El efecto es sutil y puede no ser percibido como intencional, lo que le resta impacto. El logo se siente un poco débil visualmente.",
+        "versatilidad_cromatica": "El diseño depende completamente del efecto de gradiente para funcionar, por lo que no es versátil para aplicaciones de un solo color.",
+        "innovacion_tecnologica": "La idea de una sombra que representa un rastro de datos o un proceso en el tiempo es una metáfora tecnológica decente."
+      },
+      "tanda": 4,
+      "nombre_archivo": "ai_studio_code (3).txt",
+      "posicion_en_tanda": 3,
+      "id_global": 33,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 46.67,
+      "ranking_global": 39,
+      "logo_id_original": "tanda_4_logo_03.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_38.png",
+      "scores": {
+        "originalidad": 4,
+        "adecuacion_marca": 6,
+        "legibilidad_escalabilidad": 4,
+        "impacto_visual": 5,
+        "versatilidad_cromatica": 2,
+        "innovacion_tecnologica": 6
+      },
+      "total": 27,
+      "justificacion": {
+        "originalidad": "Una variación del concepto de 'contenedor', esta vez con un gradiente que se desvanece. Es una técnica común.",
+        "adecuacion_marca": "El contenedor resalta 'AI'. El gradiente podría sugerir un escaneo o un proceso. Se adapta de manera aceptable.",
+        "legibilidad_escalabilidad": "El borde que se desvanece del contenedor creará problemas de legibilidad en tamaños pequeños, haciendo que el logo parezca incompleto o borroso.",
+        "impacto_visual": "El efecto de desvanecimiento hace que el logo parezca débil e inacabado en un lado, lo que le resta fuerza y confianza.",
+        "versatilidad_cromatica": "El diseño depende del gradiente para su efecto, por lo que no es versátil para aplicaciones de un solo color.",
+        "innovacion_tecnologica": "El efecto de 'escaneo' del gradiente es una metáfora tecnológica decente, aunque ejecutada de una manera que debilita el logo."
+      },
+      "tanda": 4,
+      "nombre_archivo": "ai_studio_code (3).txt",
+      "posicion_en_tanda": 18,
+      "id_global": 48,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 45.0,
+      "ranking_global": 40,
+      "logo_id_original": "tanda_4_logo_18.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_43.png",
+      "scores": {
+        "originalidad": 4,
+        "adecuacion_marca": 7,
+        "legibilidad_escalabilidad": 2,
+        "impacto_visual": 5,
+        "versatilidad_cromatica": 2,
+        "innovacion_tecnologica": 7
+      },
+      "total": 27,
+      "justificacion": {
+        "originalidad": "El uso de una línea de puntos que simula una onda de sonido o un gráfico de datos es un recurso visual muy común en la industria tecnológica.",
+        "adecuacion_marca": "Representa bien el flujo y análisis de datos. La paleta de colores es moderna y amigable. Se alinea con el sector tecnológico.",
+        "legibilidad_escalabilidad": "El texto es legible, pero la línea de puntos es extremadamente fina y detallada. Se desintegrará por completo en tamaños pequeños, haciéndola inutilizable.",
+        "impacto_visual": "Es estéticamente agradable pero parece demasiado delicado y frágil para una marca de tecnología B2B que debe transmitir robustez.",
+        "versatilidad_cromatica": "El diseño depende por completo del gradiente y de los puntos finos, por lo que no se puede adaptar a un solo color.",
+        "innovacion_tecnologica": "La onda de datos es una metáfora clara para el análisis y el procesamiento, comunicando bien el aspecto tecnológico."
+      },
+      "tanda": 4,
+      "nombre_archivo": "ai_studio_code (3).txt",
+      "posicion_en_tanda": 6,
+      "id_global": 36,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 45.0,
+      "ranking_global": 41,
+      "logo_id_original": "tanda_4_logo_06.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_36.png",
+      "scores": {
+        "originalidad": 3,
+        "adecuacion_marca": 6,
+        "legibilidad_escalabilidad": 5,
+        "impacto_visual": 5,
+        "versatilidad_cromatica": 2,
+        "innovacion_tecnologica": 5
+      },
+      "total": 26,
+      "justificacion": {
+        "originalidad": "Encapsular letras en una caja con un efecto de brillo o gradiente es un recurso de diseño muy común y algo anticuado, que recuerda a los estilos de la web 2.0.",
+        "adecuacion_marca": "Destaca 'AI' de una manera obvia. La paleta de colores es adecuada, pero el diseño general carece de la sofisticación que se esperaría de una marca de IA de vanguardia.",
+        "legibilidad_escalabilidad": "El efecto de gradiente/brillo es sutil y se perderá o se verá como una mancha en tamaños pequeños, afectando la calidad percibida del logo.",
+        "impacto_visual": "Es un logo suave y poco imponente. No genera una fuerte recordación y puede parecer genérico.",
+        "versatilidad_cromatica": "El diseño depende totalmente del efecto de gradiente para funcionar. No es adaptable a un solo color, lo que lo hace extremadamente inflexible.",
+        "innovacion_tecnologica": "La caja alrededor de 'AI' sugiere 'software' de una manera muy básica, pero no transmite conceptos más complejos como visión, precisión o análisis profundo."
+      },
+      "tanda": 2,
+      "nombre_archivo": "ai_studio_code (1).txt",
+      "posicion_en_tanda": 6,
+      "id_global": 16,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 43.33,
+      "ranking_global": 42,
+      "logo_id_original": "tanda_2_logo_06.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_49.png",
+      "scores": {
+        "originalidad": 3,
+        "adecuacion_marca": 6,
+        "legibilidad_escalabilidad": 2,
+        "impacto_visual": 4,
+        "versatilidad_cromatica": 2,
+        "innovacion_tecnologica": 6
+      },
+      "total": 23,
+      "justificacion": {
+        "originalidad": "Este diseño es una combinación de elementos vistos en múltiples logos anteriores (corchetes, línea de datos, caja con brillo). Carece de una idea central única y se siente como un collage.",
+        "adecuacion_marca": "Intenta comunicar demasias cosas a la vez (enfoque, datos, IA) y el resultado es confuso y recargado, lo que va en contra de la idea de precisión y claridad.",
+        "legibilidad_escalabilidad": "Pésima escalabilidad. Combina múltiples elementos problemáticos: puntos finos, un efecto de brillo y líneas delgadas. En tamaño reducido será ilegible.",
+        "impacto_visual": "El logo está visualmente sobrecargado. Los diferentes elementos compiten entre sí en lugar de complementarse, lo que resulta en un impacto visual débil y desordenado.",
+        "versatilidad_cromatica": "La presencia del efecto de brillo en la caja de 'AI' lo hace inadecuado para la reproducción en un solo color.",
+        "innovacion_tecnologica": "Aunque utiliza múltiples significantes de tecnología, su combinación desordenada no logra transmitir una imagen de innovación o sofisticación."
+      },
+      "tanda": 2,
+      "nombre_archivo": "ai_studio_code (1).txt",
+      "posicion_en_tanda": 7,
+      "id_global": 17,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 38.33,
+      "ranking_global": 43,
+      "logo_id_original": "tanda_2_logo_07.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_50.png",
+      "scores": {
+        "originalidad": 3,
+        "adecuacion_marca": 6,
+        "legibilidad_escalabilidad": 2,
+        "impacto_visual": 4,
+        "versatilidad_cromatica": 2,
+        "innovacion_tecnologica": 6
+      },
+      "total": 23,
+      "justificacion": {
+        "originalidad": "Este logo es idéntico al anterior. Es una combinación de elementos vistos en múltiples logos anteriores (corchetes, línea de datos, caja con brillo). Carece de una idea central única y se siente como un collage.",
+        "adecuacion_marca": "Intenta comunicar demasias cosas a la vez (enfoque, datos, IA) y el resultado es confuso y recargado, lo que va en contra de la idea de precisión y claridad.",
+        "legibilidad_escalabilidad": "Pésima escalabilidad. Combina múltiples elementos problemáticos: puntos finos, un efecto de brillo y líneas delgadas. En tamaño reducido será ilegible.",
+        "impacto_visual": "El logo está visualmente sobrecargado. Los diferentes elementos compiten entre sí en lugar de complementarse, lo que resulta en un impacto visual débil y desordenado.",
+        "versatilidad_cromatica": "La presencia del efecto de brillo en la caja de 'AI' lo hace inadecuado para la reproducción en un solo color.",
+        "innovacion_tecnologica": "Aunque utiliza múltiples significantes de tecnología, su combinación desordenada no logra transmitir una imagen de innovación o sofisticación."
+      },
+      "tanda": 2,
+      "nombre_archivo": "ai_studio_code (1).txt",
+      "posicion_en_tanda": 8,
+      "id_global": 18,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 38.33,
+      "ranking_global": 44,
+      "logo_id_original": "tanda_2_logo_08.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_53.png",
+      "scores": {
+        "originalidad": 2,
+        "adecuacion_marca": 4,
+        "legibilidad_escalabilidad": 2,
+        "impacto_visual": 3,
+        "versatilidad_cromatica": 1,
+        "innovacion_tecnologica": 4
+      },
+      "total": 16,
+      "justificacion": {
+        "originalidad": "Este logo es un collage de clichés de diseño tecnológico: un efecto metálico/cromado, una línea de puntos con gradiente y una forma de contenedor.",
+        "adecuacion_marca": "Intenta comunicar 'tecnología' de tantas maneras a la vez que termina sin comunicar nada con claridad. Se siente genérico y anticuado.",
+        "legibilidad_escalabilidad": "Muy mala. Los efectos de gradiente, el brillo metálico y la línea de puntos finos se reproducirán muy mal en cualquier tamaño pequeño.",
+        "impacto_visual": "El diseño está sobrecargado y los efectos visuales (especialmente el metálico) están pasados de moda. Tiene un impacto visual negativo.",
+        "versatilidad_cromatica": "Imposible de reproducir en un solo color debido a los múltiples gradientes y efectos. Versatilidad nula.",
+        "innovacion_tecnologica": "El uso de clichés visuales de la década de 2000 hace que la marca parezca todo menos innovadora."
+      },
+      "tanda": 4,
+      "nombre_archivo": "ai_studio_code (3).txt",
+      "posicion_en_tanda": 7,
+      "id_global": 37,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 26.67,
+      "ranking_global": 45,
+      "logo_id_original": "tanda_4_logo_07.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_57.png",
+      "scores": {
+        "originalidad": 2,
+        "adecuacion_marca": 3,
+        "legibilidad_escalabilidad": 1,
+        "impacto_visual": 2,
+        "versatilidad_cromatica": 1,
+        "innovacion_tecnologica": 3
+      },
+      "total": 12,
+      "justificacion": {
+        "originalidad": "Un collage de efectos anticuados y clichés de diseño: una caja con brillo, un gradiente de puntos y una paleta de colores discordante.",
+        "adecuacion_marca": "El diseño es confuso y desordenado, lo que va en contra de los valores de la marca de precisión y confiabilidad. La paleta de colores es poco profesional.",
+        "legibilidad_escalabilidad": "Pésima. Los efectos de brillo, los gradientes y los puntos finos hacen que el logo sea completamente inutilizable en tamaños pequeños.",
+        "impacto_visual": "El impacto es negativo. Parece un logo amateur de principios de la década de 2000. Es visualmente desagradable.",
+        "versatilidad_cromatica": "Nula. El diseño depende completamente de efectos complejos que no se pueden reproducir en un solo color.",
+        "innovacion_tecnologica": "El uso de efectos visuales anticuados hace que la marca parezca tecnológicamente atrasada, no innovadora."
+      },
+      "tanda": 4,
+      "nombre_archivo": "ai_studio_code (3).txt",
+      "posicion_en_tanda": 16,
+      "id_global": 46,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 20.0,
+      "ranking_global": 46,
+      "logo_id_original": "tanda_4_logo_16.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    },
+    {
+      "logo_id": "logo_58.png",
+      "scores": {
+        "originalidad": 2,
+        "adecuacion_marca": 3,
+        "legibilidad_escalabilidad": 1,
+        "impacto_visual": 2,
+        "versatilidad_cromatica": 1,
+        "innovacion_tecnologica": 3
+      },
+      "total": 12,
+      "justificacion": {
+        "originalidad": "Un duplicado con una ligera variación de color. Sigue siendo un collage de efectos anticuados y clichés de diseño.",
+        "adecuacion_marca": "El diseño es confuso y desordenado, lo que va en contra de los valores de la marca de precisión y confiabilidad.",
+        "legibilidad_escalabilidad": "Pésima. Los efectos de brillo, los gradientes y los puntos finos hacen que el logo sea completamente inutilizable en tamaños pequeños.",
+        "impacto_visual": "El impacto es negativo. Parece un logo amateur de principios de la década de 2000.",
+        "versatilidad_cromatica": "Nula. El diseño depende completamente de efectos complejos que no se pueden reproducir en un solo color.",
+        "innovacion_tecnologica": "El uso de efectos visuales anticuados hace que la marca parezca tecnológicamente atrasada, no innovadora."
+      },
+      "tanda": 4,
+      "nombre_archivo": "ai_studio_code (3).txt",
+      "posicion_en_tanda": 21,
+      "id_global": 51,
+      "clasificado": true,
+      "fase": "Clasificatoria",
+      "fecha_evaluacion": "2025-01-01",
+      "puntuacion_normalizada": 20.0,
+      "ranking_global": 47,
+      "logo_id_original": "tanda_4_logo_21.png",
+      "mapeo_aplicado": true,
+      "fecha_mapeo": "2025-01-01"
+    }
+  ],
+  "logos_por_categoria": {
+    "mapeados": [
+      {
+        "logo_id": "logo_01.png",
+        "scores": {
+          "originalidad": 6,
+          "adecuacion_marca": 8,
+          "legibilidad_escalabilidad": 7,
+          "impacto_visual": 6,
+          "versatilidad_cromatica": 8,
+          "innovacion_tecnologica": 7
+        },
+        "total": 42,
+        "justificacion": {
+          "originalidad": "El uso de corchetes como marco es un recurso conocido, pero la composición general con la línea y los puntos le da un toque distintivo y profesional.",
+          "adecuacion_marca": "La paleta de azules transmite seriedad y tecnología. Los corchetes aluden a un encuadre o foco, lo cual es muy pertinente para la visión por computadora. Se percibe como una marca confiable.",
+          "legibilidad_escalabilidad": "La tipografía es muy clara. Sin embargo, los puntos debajo de la línea son un detalle muy fino que se perderá por completo en tamaños pequeños.",
+          "impacto_visual": "Es un logo profesional y limpio, pero no genera un gran impacto o recordación inmediata. Su enfoque es más corporativo y sobrio que llamativo.",
+          "versatilidad_cromatica": "La estructura es simple y funcionaría bien en monocromo, aunque se perdería el matiz entre los dos tonos de azul. Es adaptable a fondos claros y oscuros.",
+          "innovacion_tecnologica": "Los corchetes sugieren un 'bounding box' de software de visión y la línea que se transforma en puntos evoca el procesamiento de datos. Comunica bien el aspecto tecnológico."
+        },
+        "tanda": 1,
+        "nombre_archivo": "ai_studio_code.txt",
+        "posicion_en_tanda": 1,
+        "id_global": 1,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 70.0,
+        "ranking_global": 5,
+        "logo_id_original": "tanda_1_logo_01.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_02.png",
+        "scores": {
+          "originalidad": 5,
+          "adecuacion_marca": 7,
+          "legibilidad_escalabilidad": 7,
+          "impacto_visual": 7,
+          "versatilidad_cromatica": 6,
+          "innovacion_tecnologica": 7
+        },
+        "total": 39,
+        "justificacion": {
+          "originalidad": "Es una variación cromática del logo anterior. La combinación de azul y verde lima es muy común en el sector tecnológico, lo que le resta originalidad.",
+          "adecuacion_marca": "El color verde resalta 'AI' y puede asociarse con 'aprobado' o 'éxito', lo cual es relevante para el análisis. Mantiene el carácter tecnológico y de enfoque.",
+          "legibilidad_escalabilidad": "La legibilidad de la tipografía es buena. El contraste entre el verde y el azul es alto. Persiste el problema de escalabilidad de los puntos pequeños.",
+          "impacto_visual": "La paleta de colores es más vibrante y llamativa que la del logo anterior, generando un mayor impacto visual inicial.",
+          "versatilidad_cromatica": "En una versión a un solo color, se perdería el énfasis en 'AI', que es un punto clave del diseño. Requeriría una adaptación específica para monocromo.",
+          "innovacion_tecnologica": "Al igual que el diseño anterior, los elementos de encuadre y los puntos de datos comunican eficazmente el concepto de visión artificial y procesamiento."
+        },
+        "tanda": 1,
+        "nombre_archivo": "ai_studio_code.txt",
+        "posicion_en_tanda": 2,
+        "id_global": 2,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 65.0,
+        "ranking_global": 11,
+        "logo_id_original": "tanda_1_logo_02.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_03.png",
+        "scores": {
+          "originalidad": 4,
+          "adecuacion_marca": 7,
+          "legibilidad_escalabilidad": 8,
+          "impacto_visual": 5,
+          "versatilidad_cromatica": 9,
+          "innovacion_tecnologica": 6
+        },
+        "total": 39,
+        "justificacion": {
+          "originalidad": "El uso de píxeles para formar un isotipo es un cliché en el mundo digital y tecnológico. La ejecución es limpia pero la idea es poco novedosa.",
+          "adecuacion_marca": "El concepto de píxeles se conecta directamente con la visión digital. La paleta de colores es moderna y tecnológica. Se adecúa bien al rubro de la marca.",
+          "legibilidad_escalabilidad": "El nombre es perfectamente legible. El isotipo de píxeles, aunque puede perder algo de nitidez, mantendrá su forma general en tamaños reducidos.",
+          "impacto_visual": "Es un logo correcto y funcional, pero carece de un elemento que lo haga memorable o especialmente atractivo. Resulta algo genérico.",
+          "versatilidad_cromatica": "Su diseño simple de dos colores planos lo hace extremadamente versátil. Funciona perfectamente en blanco y negro y sobre cualquier fondo.",
+          "innovacion_tecnologica": "Representa la tecnología de forma muy literal (píxeles). Comunica 'digital' claramente, pero no necesariamente 'inteligencia artificial avanzada'."
+        },
+        "tanda": 1,
+        "nombre_archivo": "ai_studio_code.txt",
+        "posicion_en_tanda": 3,
+        "id_global": 3,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 65.0,
+        "ranking_global": 12,
+        "logo_id_original": "tanda_1_logo_03.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_04.png",
+        "scores": {
+          "originalidad": 4,
+          "adecuacion_marca": 7,
+          "legibilidad_escalabilidad": 8,
+          "impacto_visual": 5,
+          "versatilidad_cromatica": 9,
+          "innovacion_tecnologica": 6
+        },
+        "total": 39,
+        "justificacion": {
+          "originalidad": "Este logo es idéntico al anterior. El uso de un isotipo formado por píxeles es un recurso visual común en la industria tecnológica, lo que limita su originalidad.",
+          "adecuacion_marca": "La referencia a los píxeles es directa y pertinente para una empresa de visión por computadora. La paleta de colores es apropiada para el sector.",
+          "legibilidad_escalabilidad": "La tipografía sans-serif garantiza una buena legibilidad. El isotipo es lo suficientemente simple como para escalar bien en la mayoría de las aplicaciones.",
+          "impacto_visual": "El diseño es limpio y profesional, pero no destaca visualmente. Su naturaleza es más funcional que impactante.",
+          "versatilidad_cromatica": "Excelente versatilidad. La simplicidad de las formas y los colores planos aseguran una reproducción perfecta en monocromo y sobre fondos diversos.",
+          "innovacion_tecnologica": "La alusión a los píxeles es una forma básica de representar la tecnología visual. Es efectivo pero no transmite una sensación de innovación de vanguardia."
+        },
+        "tanda": 1,
+        "nombre_archivo": "ai_studio_code.txt",
+        "posicion_en_tanda": 4,
+        "id_global": 4,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 65.0,
+        "ranking_global": 13,
+        "logo_id_original": "tanda_1_logo_04.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_05.png",
+        "scores": {
+          "originalidad": 7,
+          "adecuacion_marca": 8,
+          "legibilidad_escalabilidad": 4,
+          "impacto_visual": 7,
+          "versatilidad_cromatica": 5,
+          "innovacion_tecnologica": 8
+        },
+        "total": 39,
+        "justificacion": {
+          "originalidad": "La idea de píxeles que se organizan y fluyen alrededor del texto es dinámica e interesante, ofreciendo una propuesta visual más elaborada.",
+          "adecuacion_marca": "Representa muy bien el concepto de análisis de datos visuales (píxeles) y su procesamiento. La paleta de colores es vibrante y tecnológica.",
+          "legibilidad_escalabilidad": "Este es su punto más débil. Los píxeles pequeños y los que se superponen a la letra 'g' se perderán o crearán ruido visual en tamaños reducidos, afectando la legibilidad.",
+          "impacto_visual": "Es visualmente atractivo y dinámico, captura la atención por su sensación de movimiento y procesamiento.",
+          "versatilidad_cromatica": "La superposición de elementos y los múltiples tonos harían compleja su reproducción en un solo color sin perder legibilidad y detalle.",
+          "innovacion_tecnologica": "Comunica de forma muy efectiva la idea de procesamiento de datos, análisis y organización de la información visual, alineándose con la IA."
+        },
+        "tanda": 1,
+        "nombre_archivo": "ai_studio_code.txt",
+        "posicion_en_tanda": 5,
+        "id_global": 5,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 65.0,
+        "ranking_global": 14,
+        "logo_id_original": "tanda_1_logo_05.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_06.png",
+        "scores": {
+          "originalidad": 6,
+          "adecuacion_marca": 7,
+          "legibilidad_escalabilidad": 5,
+          "impacto_visual": 6,
+          "versatilidad_cromatica": 4,
+          "innovacion_tecnologica": 7
+        },
+        "total": 35,
+        "justificacion": {
+          "originalidad": "El uso de un gradiente de puntos para formar una línea es una ejecución elegante, aunque no es un concepto nuevo. La paleta naranja/gris le da cierta diferenciación.",
+          "adecuacion_marca": "La línea de puntos puede interpretarse como un escaneo o un flujo de datos, lo cual es adecuado. Transmite una sensación de precisión y análisis.",
+          "legibilidad_escalabilidad": "La tipografía es clara. Sin embargo, el gradiente de puntos es problemático: los puntos más pequeños y claros desaparecerán por completo al reducir el tamaño.",
+          "impacto_visual": "Tiene una estética sofisticada y limpia. El naranja aporta calidez, pero el conjunto puede resultar demasiado sutil y poco memorable.",
+          "versatilidad_cromatica": "El gradiente es esencial para el concepto del logo, por lo que se perdería por completo en una versión a un solo color. Su versatilidad es baja.",
+          "innovacion_tecnologica": "La idea de un flujo de datos que se procesa o se mide (representado por el gradiente) es una buena metáfora para la tecnología de análisis."
+        },
+        "tanda": 1,
+        "nombre_archivo": "ai_studio_code.txt",
+        "posicion_en_tanda": 6,
+        "id_global": 6,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 58.33,
+        "ranking_global": 22,
+        "logo_id_original": "tanda_1_logo_06.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_07.png",
+        "scores": {
+          "originalidad": 4,
+          "adecuacion_marca": 6,
+          "legibilidad_escalabilidad": 6,
+          "impacto_visual": 7,
+          "versatilidad_cromatica": 8,
+          "innovacion_tecnologica": 5
+        },
+        "total": 36,
+        "justificacion": {
+          "originalidad": "Nuevamente, un diseño basado en píxeles que se desintegran o forman una figura. Es un recurso visual muy explotado en el sector tecnológico.",
+          "adecuacion_marca": "Los píxeles conectan con la visión digital. La forma podría ser una esquina de encuadre o un checkmark (verificación), lo cual es pertinente.",
+          "legibilidad_escalabilidad": "La tipografía es legible. El elemento de píxeles puede volverse un manchón indefinido en tamaños muy pequeños, perdiendo su forma.",
+          "impacto_visual": "El color verde neón es muy llamativo y moderno, lo que le otorga un impacto visual considerable a pesar de la simpleza del concepto.",
+          "versatilidad_cromatica": "La simplicidad de la forma y el color lo hacen bastante adaptable a versiones monocromáticas y diferentes fondos.",
+          "innovacion_tecnologica": "Es una representación muy directa y algo básica de lo 'digital'. Comunica tecnología, pero de una manera poco sofisticada."
+        },
+        "tanda": 1,
+        "nombre_archivo": "ai_studio_code.txt",
+        "posicion_en_tanda": 7,
+        "id_global": 7,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 60.0,
+        "ranking_global": 20,
+        "logo_id_original": "tanda_1_logo_07.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_08.png",
+        "scores": {
+          "originalidad": 8,
+          "adecuacion_marca": 9,
+          "legibilidad_escalabilidad": 6,
+          "impacto_visual": 8,
+          "versatilidad_cromatica": 8,
+          "innovacion_tecnologica": 9
+        },
+        "total": 48,
+        "justificacion": {
+          "originalidad": "La integración de los corchetes en la 'AI' y el corte afilado de la 'f' son detalles originales y bien ejecutados que le dan una fuerte personalidad.",
+          "adecuacion_marca": "Excelente adecuación. El foco en 'AI', la precisión sugerida por los cortes y el aspecto general de alta tecnología reflejan perfectamente los valores de la marca.",
+          "legibilidad_escalabilidad": "El logo principal es muy legible. Sin embargo, el tagline 'PIXEL - PRODUCT' es demasiado pequeño y se volverá ilegible inmediatamente, lo cual es un fallo si se considera parte integral.",
+          "impacto_visual": "Es un logo fuerte, moderno y con confianza. La combinación de colores y la composición son memorables y tienen un gran impacto.",
+          "versatilidad_cromatica": "La estructura de dos colores es robusta y se adaptará bien a versiones de un solo color, manteniendo su fuerza conceptual.",
+          "innovacion_tecnologica": "Comunica tecnología avanzada de forma brillante. El encuadre de 'AI' es un guiño directo a la visión por computadora y el diseño general denota precisión e inteligencia."
+        },
+        "tanda": 1,
+        "nombre_archivo": "ai_studio_code.txt",
+        "posicion_en_tanda": 8,
+        "id_global": 8,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 80.0,
+        "ranking_global": 1,
+        "logo_id_original": "tanda_1_logo_08.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_09.png",
+        "scores": {
+          "originalidad": 3,
+          "adecuacion_marca": 6,
+          "legibilidad_escalabilidad": 10,
+          "impacto_visual": 5,
+          "versatilidad_cromatica": 10,
+          "innovacion_tecnologica": 4
+        },
+        "total": 38,
+        "justificacion": {
+          "originalidad": "Encapsular parte de un nombre en una forma de icono de app es uno de los recursos más comunes y genéricos en el diseño de logos para tecnología.",
+          "adecuacion_marca": "Resalta 'AI' y se asocia con software/apps, por lo que es adecuado. Sin embargo, carece de la especificidad para 'visión' o 'análisis de góndolas'.",
+          "legibilidad_escalabilidad": "Perfecta. Las formas son simples, claras y audaces. Este logo funcionará sin problemas en cualquier tamaño, desde un favicon hasta una valla publicitaria.",
+          "impacto_visual": "Es amigable y limpio, pero no tiene ningún rasgo distintivo. Es fácil de ignorar por su similitud con miles de otros logos de apps.",
+          "versatilidad_cromatica": "Máxima versatilidad. Su simplicidad garantiza una reproducción impecable en cualquier sistema de color, fondo o técnica de impresión.",
+          "innovacion_tecnologica": "La alusión a un icono de app es una representación muy superficial de la tecnología. No transmite la idea de una IA compleja o avanzada."
+        },
+        "tanda": 1,
+        "nombre_archivo": "ai_studio_code.txt",
+        "posicion_en_tanda": 9,
+        "id_global": 9,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 63.33,
+        "ranking_global": 17,
+        "logo_id_original": "tanda_1_logo_09.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_10.png",
+        "scores": {
+          "originalidad": 5,
+          "adecuacion_marca": 7,
+          "legibilidad_escalabilidad": 6,
+          "impacto_visual": 7,
+          "versatilidad_cromatica": 5,
+          "innovacion_tecnologica": 7
+        },
+        "total": 37,
+        "justificacion": {
+          "originalidad": "Combina elementos ya vistos en otras propuestas (corchetes, matriz de puntos con gradiente). Es una remezcla competente pero no una idea nueva.",
+          "adecuacion_marca": "Los elementos combinados (encuadre y matriz de datos) son pertinentes para la marca y comunican bien su propósito de análisis visual.",
+          "legibilidad_escalabilidad": "La tipografía es clara. La matriz de puntos con gradiente presenta problemas de escalabilidad, ya que los puntos más claros se desvanecerán en tamaños pequeños.",
+          "impacto_visual": "El color cian es vibrante y le da un aspecto moderno y enérgico. La composición es equilibrada y resulta visualmente agradable.",
+          "versatilidad_cromatica": "El gradiente en los puntos es una parte importante del concepto (procesamiento), y se perdería en una versión monocromática, lo que limita su versatilidad.",
+          "innovacion_tecnologica": "La combinación del 'viewfinder' y la matriz de datos/píxeles es una buena representación visual de la tecnología de visión por computadora y el análisis de datos."
+        },
+        "tanda": 1,
+        "nombre_archivo": "ai_studio_code.txt",
+        "posicion_en_tanda": 10,
+        "id_global": 10,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 61.67,
+        "ranking_global": 18,
+        "logo_id_original": "tanda_1_logo_10.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_11.png",
+        "scores": {
+          "originalidad": 4,
+          "adecuacion_marca": 7,
+          "legibilidad_escalabilidad": 3,
+          "impacto_visual": 6,
+          "versatilidad_cromatica": 2,
+          "innovacion_tecnologica": 8
+        },
+        "total": 30,
+        "justificacion": {
+          "originalidad": "Una variación de un concepto ya visto (matriz de puntos con gradiente). La idea es familiar, solo cambia la paleta de colores.",
+          "adecuacion_marca": "La matriz de puntos es una buena representación de los datos visuales (píxeles) y el gradiente sugiere un proceso de análisis. Se adapta bien.",
+          "legibilidad_escalabilidad": "El texto es claro. La matriz de puntos es demasiado detallada y los puntos más claros del gradiente desaparecerán en tamaños pequeños.",
+          "impacto_visual": "La paleta de colores coral es cálida y moderna. El diseño es agradable a la vista pero carece de un elemento único que lo haga memorable.",
+          "versatilidad_cromatica": "El diseño depende totalmente del gradiente para transmitir su idea, por lo que no es versátil para aplicaciones de un solo color.",
+          "innovacion_tecnologica": "La representación de una cuadrícula de datos que se transforma es una metáfora visual muy fuerte para la tecnología de análisis de imágenes."
+        },
+        "tanda": 4,
+        "nombre_archivo": "ai_studio_code (3).txt",
+        "posicion_en_tanda": 8,
+        "id_global": 38,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 50.0,
+        "ranking_global": 36,
+        "logo_id_original": "tanda_4_logo_08.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_12.png",
+        "scores": {
+          "originalidad": 7,
+          "adecuacion_marca": 8,
+          "legibilidad_escalabilidad": 5,
+          "impacto_visual": 7,
+          "versatilidad_cromatica": 4,
+          "innovacion_tecnologica": 8
+        },
+        "total": 39,
+        "justificacion": {
+          "originalidad": "La combinación de una forma orgánica y suave que envuelve la 'AI' con los píxeles duros y digitales debajo crea un contraste interesante y original.",
+          "adecuacion_marca": "Representa bien la dualidad de la tecnología (píxeles) y un enfoque más accesible o de 'lente' (la forma orgánica). Se alinea con los valores de la marca.",
+          "legibilidad_escalabilidad": "La tipografía principal es clara. Sin embargo, los píxeles sueltos en la parte inferior son demasiado pequeños y se perderán. La 'AI' en negativo dentro de la forma también puede perder definición al escalar.",
+          "impacto_visual": "Es visualmente atractivo y moderno. La composición es dinámica y la paleta de colores es profesional y agradable.",
+          "versatilidad_cromatica": "La superposición de la forma y el texto en negativo hacen que la versión a un solo color sea problemática. Requeriría una versión contorneada específica.",
+          "innovacion_tecnologica": "Comunica bien la idea de enfocar la inteligencia artificial en datos visuales (píxeles), lo que es una representación conceptual fuerte."
+        },
+        "tanda": 2,
+        "nombre_archivo": "ai_studio_code (1).txt",
+        "posicion_en_tanda": 3,
+        "id_global": 13,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 65.0,
+        "ranking_global": 15,
+        "logo_id_original": "tanda_2_logo_03.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_13.png",
+        "scores": {
+          "originalidad": 5,
+          "adecuacion_marca": 8,
+          "legibilidad_escalabilidad": 4,
+          "impacto_visual": 6,
+          "versatilidad_cromatica": 5,
+          "innovacion_tecnologica": 7
+        },
+        "total": 35,
+        "justificacion": {
+          "originalidad": "El concepto de un flujo de datos pixelado es común, pero la ejecución en múltiples capas que se asemejan a un código de barras o a un análisis de estantería es una interpretación interesante.",
+          "adecuacion_marca": "Se alinea muy bien con el análisis de góndolas. El flujo de píxeles sugiere datos y el resaltado de 'AI' es claro. Transmite tecnología y análisis de retail.",
+          "legibilidad_escalabilidad": "La tipografía es legible, pero el elemento gráfico inferior es demasiado detallado. En tamaños pequeños, las tres filas de píxeles se fusionarán en una mancha confusa.",
+          "impacto_visual": "Es profesional y tiene una apariencia técnica, pero la complejidad del elemento gráfico puede hacerlo un poco pesado visualmente y no es instantáneamente memorable.",
+          "versatilidad_cromatica": "La dependencia de tres colores (verde, gris, negro) para diferenciar las capas de datos complica su adaptación a un solo color sin perder el significado.",
+          "innovacion_tecnologica": "Representa eficazmente el concepto de escaneo, recopilación y análisis de datos visuales a nivel de píxel, lo cual es muy pertinente."
+        },
+        "tanda": 2,
+        "nombre_archivo": "ai_studio_code (1).txt",
+        "posicion_en_tanda": 1,
+        "id_global": 11,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 58.33,
+        "ranking_global": 23,
+        "logo_id_original": "tanda_2_logo_01.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_14.png",
+        "scores": {
+          "originalidad": 4,
+          "adecuacion_marca": 7,
+          "legibilidad_escalabilidad": 4,
+          "impacto_visual": 6,
+          "versatilidad_cromatica": 3,
+          "innovacion_tecnologica": 7
+        },
+        "total": 31,
+        "justificacion": {
+          "originalidad": "Es otra variante del concepto de flujo de datos pixelado con un gradiente, una idea recurrente en el sector tecnológico.",
+          "adecuacion_marca": "El concepto de una línea de datos que se escanea o procesa (sugerido por el gradiente de color) es relevante para la marca.",
+          "legibilidad_escalabilidad": "La tipografía es clara, pero la línea de puntos es fina y los puntos dispersos debajo son demasiado pequeños. El gradiente se perderá en tamaños reducidos.",
+          "impacto_visual": "Tiene un aspecto limpio y corporativo. El verde le da un toque de vitalidad, pero el diseño en general no es particularmente memorable.",
+          "versatilidad_cromatica": "El gradiente de color es fundamental para el efecto visual, por lo que una versión de un solo color perdería gran parte del concepto. Baja versatilidad.",
+          "innovacion_tecnologica": "La representación de un flujo de datos que cambia a medida que avanza es una metáfora visual clara para el procesamiento y análisis de la IA."
+        },
+        "tanda": 2,
+        "nombre_archivo": "ai_studio_code (1).txt",
+        "posicion_en_tanda": 4,
+        "id_global": 14,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 51.67,
+        "ranking_global": 32,
+        "logo_id_original": "tanda_2_logo_04.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_17.png",
+        "scores": {
+          "originalidad": 7,
+          "adecuacion_marca": 9,
+          "legibilidad_escalabilidad": 4,
+          "impacto_visual": 7,
+          "versatilidad_cromatica": 3,
+          "innovacion_tecnologica": 9
+        },
+        "total": 39,
+        "justificacion": {
+          "originalidad": "La idea de usar transparencia en las letras 'AI' para crear un efecto de capa o de 'ver a través' es creativa y se distingue de otras propuestas.",
+          "adecuacion_marca": "La metáfora visual es excelente para la visión por computadora. Los corchetes enmarcan, y la transparencia de 'AI' sugiere análisis profundo y superposición de datos.",
+          "legibilidad_escalabilidad": "El efecto de transparencia puede crear problemas de legibilidad en tamaños pequeños, donde las partes superpuestas pueden volverse confusas o 'sucias'.",
+          "impacto_visual": "Es un diseño inteligente y que llama la atención, invitando a una segunda mirada para entender el efecto. Resulta moderno y sofisticado.",
+          "versatilidad_cromatica": "La transparencia es un efecto difícil de replicar en sistemas de un solo color o en ciertos medios de producción, lo que limita severamente su versatilidad.",
+          "innovacion_tecnologica": "Comunica de forma brillante y sofisticada la idea de una IA que analiza capas de información visual. Muy innovador conceptualmente."
+        },
+        "tanda": 3,
+        "nombre_archivo": "ai_studio_code (2).txt",
+        "posicion_en_tanda": 4,
+        "id_global": 24,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 65.0,
+        "ranking_global": 16,
+        "logo_id_original": "tanda_3_logo_04.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_18.png",
+        "scores": {
+          "originalidad": 6,
+          "adecuacion_marca": 8,
+          "legibilidad_escalabilidad": 5,
+          "impacto_visual": 7,
+          "versatilidad_cromatica": 6,
+          "innovacion_tecnologica": 8
+        },
+        "total": 40,
+        "justificacion": {
+          "originalidad": "El uso de píxeles para formar una forma abstracta (una flecha o un punto de enfoque) es una ejecución creativa de un concepto común.",
+          "adecuacion_marca": "Los píxeles se conectan con la visión digital, y la forma de flecha sugiere precisión, enfoque o 'profundizar' en los datos. Muy relevante.",
+          "legibilidad_escalabilidad": "El texto es claro. La forma de píxeles, al estar compuesta por muchos elementos pequeños, puede perder su nitidez y forma a tamaños reducidos.",
+          "impacto_visual": "La forma es dinámica y la paleta de colores es fuerte. Crea un punto de interés visual que atrae la mirada.",
+          "versatilidad_cromatica": "La dependencia de tres colores (verde, gris, negro) complica un poco la adaptación a un solo color, pero la forma general es lo suficientemente distintiva como para funcionar.",
+          "innovacion_tecnologica": "La idea de que la IA organiza los datos visuales (píxeles) para encontrar un punto de enfoque o dirección es una excelente metáfora tecnológica."
+        },
+        "tanda": 4,
+        "nombre_archivo": "ai_studio_code (3).txt",
+        "posicion_en_tanda": 10,
+        "id_global": 40,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 66.67,
+        "ranking_global": 10,
+        "logo_id_original": "tanda_4_logo_10.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_19.png",
+        "scores": {
+          "originalidad": 5,
+          "adecuacion_marca": 8,
+          "legibilidad_escalabilidad": 4,
+          "impacto_visual": 6,
+          "versatilidad_cromatica": 5,
+          "innovacion_tecnologica": 7
+        },
+        "total": 35,
+        "justificacion": {
+          "originalidad": "Este logo es idéntico al primero de esta tanda. El concepto de un flujo de datos pixelado es común, pero la ejecución en múltiples capas que se asemejan a un código de barras o a un análisis de estantería es una interpretación interesante.",
+          "adecuacion_marca": "Se alinea muy bien con el análisis de góndolas. El flujo de píxeles sugiere datos y el resaltado de 'AI' es claro. Transmite tecnología y análisis de retail.",
+          "legibilidad_escalabilidad": "La tipografía es legible, pero el elemento gráfico inferior es demasiado detallado. En tamaños pequeños, las tres filas de píxeles se fusionarán en una mancha confusa.",
+          "impacto_visual": "Es profesional y tiene una apariencia técnica, pero la complejidad del elemento gráfico puede hacerlo un poco pesado visualmente y no es instantáneamente memorable.",
+          "versatilidad_cromatica": "La dependencia de tres colores (verde, gris, negro) para diferenciar las capas de datos complica su adaptación a un solo color sin perder el significado.",
+          "innovacion_tecnologica": "Representa eficazmente el concepto de escaneo, recopilación y análisis de datos visuales a nivel de píxel, lo cual es muy pertinente."
+        },
+        "tanda": 2,
+        "nombre_archivo": "ai_studio_code (1).txt",
+        "posicion_en_tanda": 10,
+        "id_global": 20,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 58.33,
+        "ranking_global": 24,
+        "logo_id_original": "tanda_2_logo_10.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_20.png",
+        "scores": {
+          "originalidad": 4,
+          "adecuacion_marca": 7,
+          "legibilidad_escalabilidad": 4,
+          "impacto_visual": 6,
+          "versatilidad_cromatica": 3,
+          "innovacion_tecnologica": 7
+        },
+        "total": 31,
+        "justificacion": {
+          "originalidad": "Este logo es idéntico al anterior. Es una variante del concepto de flujo de datos pixelado con un gradiente, una idea recurrente en el sector tecnológico.",
+          "adecuacion_marca": "El concepto de una línea de datos que se escanea o procesa (sugerido por el gradiente de color) es relevante para la marca.",
+          "legibilidad_escalabilidad": "La tipografía es clara, pero la línea de puntos es fina y los puntos dispersos debajo son demasiado pequeños. El gradiente se perderá en tamaños reducidos.",
+          "impacto_visual": "Tiene un aspecto limpio y corporativo. El verde le da un toque de vitalidad, pero el diseño en general no es particularmente memorable.",
+          "versatilidad_cromatica": "El gradiente de color es fundamental para el efecto visual, por lo que una versión de un solo color perdería gran parte del concepto. Baja versatilidad.",
+          "innovacion_tecnologica": "La representación de un flujo de datos que cambia a medida que avanza es una metáfora visual clara para el procesamiento y análisis de la IA."
+        },
+        "tanda": 2,
+        "nombre_archivo": "ai_studio_code (1).txt",
+        "posicion_en_tanda": 5,
+        "id_global": 15,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 51.67,
+        "ranking_global": 33,
+        "logo_id_original": "tanda_2_logo_05.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_21.png",
+        "scores": {
+          "originalidad": 6,
+          "adecuacion_marca": 8,
+          "legibilidad_escalabilidad": 5,
+          "impacto_visual": 7,
+          "versatilidad_cromatica": 4,
+          "innovacion_tecnologica": 7
+        },
+        "total": 37,
+        "justificacion": {
+          "originalidad": "Una versión recoloreada de un diseño anterior. El concepto del marco y la línea de datos es sólido pero ya ha sido evaluado.",
+          "adecuacion_marca": "El marco como 'viewfinder' y la línea de datos siguen siendo muy pertinentes para la marca. La paleta naranja/gris es profesional y cálida.",
+          "legibilidad_escalabilidad": "El texto es claro, pero la línea de puntos con gradiente es un punto débil para la escalabilidad, ya que los puntos más claros desaparecerán.",
+          "impacto_visual": "El marco le da una fuerte presencia y la paleta de colores es agradable. Tiene un buen impacto visual.",
+          "versatilidad_cromatica": "El gradiente en la línea de puntos es problemático para la reproducción en un solo color, ya que se pierde parte del concepto.",
+          "innovacion_tecnologica": "La combinación de un marco de enfoque y un flujo de datos es una representación muy completa de la tecnología de la empresa."
+        },
+        "tanda": 4,
+        "nombre_archivo": "ai_studio_code (3).txt",
+        "posicion_en_tanda": 11,
+        "id_global": 41,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 61.67,
+        "ranking_global": 19,
+        "logo_id_original": "tanda_4_logo_11.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_23.png",
+        "scores": {
+          "originalidad": 4,
+          "adecuacion_marca": 8,
+          "legibilidad_escalabilidad": 5,
+          "impacto_visual": 6,
+          "versatilidad_cromatica": 5,
+          "innovacion_tecnologica": 7
+        },
+        "total": 35,
+        "justificacion": {
+          "originalidad": "Es una variante de un concepto ya visto: un logotivo sobre una barra de píxeles. La idea es funcional pero carece de novedad en el sector tecnológico.",
+          "adecuacion_marca": "Muy adecuado para el análisis de estanterías, ya que las barras de píxeles pueden evocar productos en una góndola o un código de barras. El énfasis en 'AI' es claro.",
+          "legibilidad_escalabilidad": "El nombre es legible. El elemento gráfico de píxeles es bastante detallado y en tamaños pequeños corre el riesgo de convertirse en una mancha borrosa.",
+          "impacto_visual": "Es un logo profesional y limpio, pero se siente como un arquetipo de logo tecnológico. Es correcto pero no particularmente memorable.",
+          "versatilidad_cromatica": "La dependencia de tres colores y un gradiente sutil en los píxeles complica su adaptación. En monocromo, se perdería el énfasis y el detalle.",
+          "innovacion_tecnologica": "Representa bien el análisis de datos a nivel de píxel. El gradiente sugiere un proceso de clasificación o análisis, lo cual es pertinente."
+        },
+        "tanda": 3,
+        "nombre_archivo": "ai_studio_code (2).txt",
+        "posicion_en_tanda": 3,
+        "id_global": 23,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 58.33,
+        "ranking_global": 25,
+        "logo_id_original": "tanda_3_logo_03.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_25.png",
+        "scores": {
+          "originalidad": 5,
+          "adecuacion_marca": 7,
+          "legibilidad_escalabilidad": 3,
+          "impacto_visual": 6,
+          "versatilidad_cromatica": 2,
+          "innovacion_tecnologica": 8
+        },
+        "total": 31,
+        "justificacion": {
+          "originalidad": "El uso de una matriz de puntos que se desvanece es una técnica visual conocida para representar datos o sonido. La paleta de colores coral le da un toque distintivo.",
+          "adecuacion_marca": "El concepto de datos que se procesan o analizan (los puntos que se desvanecen) es muy adecuado. El color cálido puede transmitir accesibilidad.",
+          "legibilidad_escalabilidad": "Este es un punto muy débil. El efecto de gradiente y los puntos más pequeños y claros desaparecerán por completo en tamaños reducidos, rompiendo el diseño.",
+          "impacto_visual": "Es estéticamente agradable y tiene una sensación de movimiento, pero el efecto de desvanecimiento puede hacer que parezca débil o incompleto.",
+          "versatilidad_cromatica": "El diseño depende completamente del gradiente de color y opacidad. Es prácticamente imposible de reproducir en un solo color sólido, lo que lo hace muy poco versátil.",
+          "innovacion_tecnologica": "La metáfora visual del procesamiento de datos (el flujo de puntos que se transforma) es fuerte y comunica bien la idea de una tecnología avanzada de análisis."
+        },
+        "tanda": 2,
+        "nombre_archivo": "ai_studio_code (1).txt",
+        "posicion_en_tanda": 2,
+        "id_global": 12,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 51.67,
+        "ranking_global": 34,
+        "logo_id_original": "tanda_2_logo_02.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_27.png",
+        "scores": {
+          "originalidad": 5,
+          "adecuacion_marca": 8,
+          "legibilidad_escalabilidad": 7,
+          "impacto_visual": 7,
+          "versatilidad_cromatica": 8,
+          "innovacion_tecnologica": 7
+        },
+        "total": 42,
+        "justificacion": {
+          "originalidad": "La tipografía con una 'A' estilizada y la línea de puntos son elementos limpios y modernos, pero bastante comunes en el branding de empresas tecnológicas.",
+          "adecuacion_marca": "Transmite profesionalismo, tecnología y precisión. La paleta de colores es corporativa y confiable. Los puntos como flujo de datos se ajustan bien al propósito.",
+          "legibilidad_escalabilidad": "El nombre es muy claro. La línea de puntos es el único elemento que podría perder algo de definición en tamaños muy pequeños, pero el logo en general escala bien.",
+          "impacto_visual": "Es un logo elegante y equilibrado. Su impacto no es explosivo, sino que proviene de su limpieza y profesionalismo. Es fácil de recordar.",
+          "versatilidad_cromatica": "Aunque tiene un sutil gradiente en los puntos, el logo funcionaría casi igual de bien en un solo color. Es bastante versátil.",
+          "innovacion_tecnologica": "La combinación de una tipografía moderna y la representación de datos mediante puntos comunica eficazmente la naturaleza tecnológica de la empresa."
+        },
+        "tanda": 3,
+        "nombre_archivo": "ai_studio_code (2).txt",
+        "posicion_en_tanda": 6,
+        "id_global": 26,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 70.0,
+        "ranking_global": 6,
+        "logo_id_original": "tanda_3_logo_06.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_28.png",
+        "scores": {
+          "originalidad": 4,
+          "adecuacion_marca": 7,
+          "legibilidad_escalabilidad": 5,
+          "impacto_visual": 6,
+          "versatilidad_cromatica": 3,
+          "innovacion_tecnologica": 7
+        },
+        "total": 32,
+        "justificacion": {
+          "originalidad": "Una versión recoloreada de un concepto ya evaluado (dos filas de puntos/cuadrados con gradiente).",
+          "adecuacion_marca": "El concepto de datos en una cuadrícula que se procesan es relevante. La paleta de colores naranja es enérgica.",
+          "legibilidad_escalabilidad": "El texto es claro, pero los puntos pequeños y el efecto de gradiente se perderán en tamaños reducidos.",
+          "impacto_visual": "Es un diseño limpio y corporativo, pero no particularmente emocionante o memorable.",
+          "versatilidad_cromatica": "El gradiente es una parte integral del diseño, lo que lo hace poco versátil para aplicaciones de un solo color.",
+          "innovacion_tecnologica": "La representación de un flujo de datos en dos líneas es una metáfora clara para el análisis tecnológico."
+        },
+        "tanda": 4,
+        "nombre_archivo": "ai_studio_code (3).txt",
+        "posicion_en_tanda": 13,
+        "id_global": 43,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 53.33,
+        "ranking_global": 31,
+        "logo_id_original": "tanda_4_logo_13.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_30.png",
+        "scores": {
+          "originalidad": 5,
+          "adecuacion_marca": 8,
+          "legibilidad_escalabilidad": 2,
+          "impacto_visual": 8,
+          "versatilidad_cromatica": 2,
+          "innovacion_tecnologica": 9
+        },
+        "total": 34,
+        "justificacion": {
+          "originalidad": "El efecto de 'desintegración de píxeles' es un tropo visual conocido, pero su ejecución aquí es dramática y está bien integrada con el logotipo.",
+          "adecuacion_marca": "La idea de deconstruir la realidad (la línea de base) en datos (píxeles) es una metáfora visual muy potente y adecuada para la visión por computadora.",
+          "legibilidad_escalabilidad": "El logotipo es claro, pero el campo masivo de puntos diminutos es un desastre para la escalabilidad. A tamaños pequeños, se convertirá en una mancha ruidosa e indefinida.",
+          "impacto_visual": "El efecto es muy llamativo y dinámico. El color rojo intenso lo hace audaz y agresivo, capturando la atención de inmediato.",
+          "versatilidad_cromatica": "El diseño depende completamente del gradiente de dos colores en los puntos para funcionar. No se puede reproducir en un solo color.",
+          "innovacion_tecnologica": "Comunica de manera excelente el concepto de análisis profundo, deconstrucción de imágenes y procesamiento masivo de datos. Muy fuerte en este aspecto."
+        },
+        "tanda": 3,
+        "nombre_archivo": "ai_studio_code (2).txt",
+        "posicion_en_tanda": 9,
+        "id_global": 29,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 56.67,
+        "ranking_global": 27,
+        "logo_id_original": "tanda_3_logo_09.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_31.png",
+        "scores": {
+          "originalidad": 5,
+          "adecuacion_marca": 8,
+          "legibilidad_escalabilidad": 2,
+          "impacto_visual": 7,
+          "versatilidad_cromatica": 2,
+          "innovacion_tecnologica": 9
+        },
+        "total": 33,
+        "justificacion": {
+          "originalidad": "Es una variación de color del logo anterior. La idea y ejecución son las mismas, cambiando la paleta de rojo a azul.",
+          "adecuacion_marca": "La metáfora de análisis y deconstrucción de datos sigue siendo muy fuerte. El color azul le da un tono más corporativo y tecnológico que el rojo.",
+          "legibilidad_escalabilidad": "Persiste el mismo problema crítico de escalabilidad: la nube de puntos pequeños no se reproducirá bien en tamaños reducidos.",
+          "impacto_visual": "El efecto sigue siendo dramático. El azul es un color fuerte y confiable en tecnología, por lo que el impacto es alto, aunque quizás menos urgente que el rojo.",
+          "versatilidad_cromatica": "Al igual que su contraparte roja, la dependencia del gradiente en los puntos hace que sea inadecuado para aplicaciones de un solo color.",
+          "innovacion_tecnologica": "La representación visual de la IA deconstruyendo la información visual en datos analizables sigue siendo un concepto tecnológico muy potente y bien ejecutado."
+        },
+        "tanda": 3,
+        "nombre_archivo": "ai_studio_code (2).txt",
+        "posicion_en_tanda": 10,
+        "id_global": 30,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 55.0,
+        "ranking_global": 29,
+        "logo_id_original": "tanda_3_logo_10.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_35.png",
+        "scores": {
+          "originalidad": 5,
+          "adecuacion_marca": 7,
+          "legibilidad_escalabilidad": 3,
+          "impacto_visual": 5,
+          "versatilidad_cromatica": 2,
+          "innovacion_tecnologica": 6
+        },
+        "total": 28,
+        "justificacion": {
+          "originalidad": "El uso de un efecto de extrusión o sombra con un gradiente de desvanecimiento es una técnica interesante, aunque no del todo nueva.",
+          "adecuacion_marca": "El efecto puede sugerir profundidad, procesamiento o movimiento hacia adelante. Los colores son profesionales y se adaptan a una marca tecnológica.",
+          "legibilidad_escalabilidad": "El efecto de gradiente que se desvanece es el principal problema. A tamaños pequeños, se verá como una mancha borrosa, afectando la claridad del logo.",
+          "impacto_visual": "El efecto es sutil y puede no ser percibido como intencional, lo que le resta impacto. El logo se siente un poco débil visualmente.",
+          "versatilidad_cromatica": "El diseño depende completamente del efecto de gradiente para funcionar, por lo que no es versátil para aplicaciones de un solo color.",
+          "innovacion_tecnologica": "La idea de una sombra que representa un rastro de datos o un proceso en el tiempo es una metáfora tecnológica decente."
+        },
+        "tanda": 4,
+        "nombre_archivo": "ai_studio_code (3).txt",
+        "posicion_en_tanda": 3,
+        "id_global": 33,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 46.67,
+        "ranking_global": 39,
+        "logo_id_original": "tanda_4_logo_03.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_36.png",
+        "scores": {
+          "originalidad": 3,
+          "adecuacion_marca": 6,
+          "legibilidad_escalabilidad": 5,
+          "impacto_visual": 5,
+          "versatilidad_cromatica": 2,
+          "innovacion_tecnologica": 5
+        },
+        "total": 26,
+        "justificacion": {
+          "originalidad": "Encapsular letras en una caja con un efecto de brillo o gradiente es un recurso de diseño muy común y algo anticuado, que recuerda a los estilos de la web 2.0.",
+          "adecuacion_marca": "Destaca 'AI' de una manera obvia. La paleta de colores es adecuada, pero el diseño general carece de la sofisticación que se esperaría de una marca de IA de vanguardia.",
+          "legibilidad_escalabilidad": "El efecto de gradiente/brillo es sutil y se perderá o se verá como una mancha en tamaños pequeños, afectando la calidad percibida del logo.",
+          "impacto_visual": "Es un logo suave y poco imponente. No genera una fuerte recordación y puede parecer genérico.",
+          "versatilidad_cromatica": "El diseño depende totalmente del efecto de gradiente para funcionar. No es adaptable a un solo color, lo que lo hace extremadamente inflexible.",
+          "innovacion_tecnologica": "La caja alrededor de 'AI' sugiere 'software' de una manera muy básica, pero no transmite conceptos más complejos como visión, precisión o análisis profundo."
+        },
+        "tanda": 2,
+        "nombre_archivo": "ai_studio_code (1).txt",
+        "posicion_en_tanda": 6,
+        "id_global": 16,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 43.33,
+        "ranking_global": 42,
+        "logo_id_original": "tanda_2_logo_06.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_37.png",
+        "scores": {
+          "originalidad": 4,
+          "adecuacion_marca": 7,
+          "legibilidad_escalabilidad": 10,
+          "impacto_visual": 6,
+          "versatilidad_cromatica": 10,
+          "innovacion_tecnologica": 5
+        },
+        "total": 42,
+        "justificacion": {
+          "originalidad": "Encerrar parte del nombre en una forma es un recurso muy común. La forma de hoja o escudo inclinado es limpia, pero no es una idea novedosa.",
+          "adecuacion_marca": "Destaca 'AI' de forma efectiva. La paleta de colores verde/negro es moderna y transmite tecnología y éxito. Se adapta bien al sector.",
+          "legibilidad_escalabilidad": "Perfecta. Las formas son audaces, simples y de alto contraste. Se reproducirá sin problemas en cualquier tamaño.",
+          "impacto_visual": "Es un logo limpio y fuerte, pero carece de un elemento verdaderamente distintivo que lo haga memorable. Es funcionalmente sólido.",
+          "versatilidad_cromatica": "Excelente versatilidad. El diseño simple funciona a la perfección en un solo color, ya sea en positivo o en negativo.",
+          "innovacion_tecnologica": "La idea de un 'contenedor' para la IA es bastante básica y no comunica conceptos más avanzados como la visión o el análisis de precisión."
+        },
+        "tanda": 4,
+        "nombre_archivo": "ai_studio_code (3).txt",
+        "posicion_en_tanda": 2,
+        "id_global": 32,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 70.0,
+        "ranking_global": 7,
+        "logo_id_original": "tanda_4_logo_02.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_38.png",
+        "scores": {
+          "originalidad": 4,
+          "adecuacion_marca": 6,
+          "legibilidad_escalabilidad": 4,
+          "impacto_visual": 5,
+          "versatilidad_cromatica": 2,
+          "innovacion_tecnologica": 6
+        },
+        "total": 27,
+        "justificacion": {
+          "originalidad": "Una variación del concepto de 'contenedor', esta vez con un gradiente que se desvanece. Es una técnica común.",
+          "adecuacion_marca": "El contenedor resalta 'AI'. El gradiente podría sugerir un escaneo o un proceso. Se adapta de manera aceptable.",
+          "legibilidad_escalabilidad": "El borde que se desvanece del contenedor creará problemas de legibilidad en tamaños pequeños, haciendo que el logo parezca incompleto o borroso.",
+          "impacto_visual": "El efecto de desvanecimiento hace que el logo parezca débil e inacabado en un lado, lo que le resta fuerza y confianza.",
+          "versatilidad_cromatica": "El diseño depende del gradiente para su efecto, por lo que no es versátil para aplicaciones de un solo color.",
+          "innovacion_tecnologica": "El efecto de 'escaneo' del gradiente es una metáfora tecnológica decente, aunque ejecutada de una manera que debilita el logo."
+        },
+        "tanda": 4,
+        "nombre_archivo": "ai_studio_code (3).txt",
+        "posicion_en_tanda": 18,
+        "id_global": 48,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 45.0,
+        "ranking_global": 40,
+        "logo_id_original": "tanda_4_logo_18.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_40.png",
+        "scores": {
+          "originalidad": 5,
+          "adecuacion_marca": 8,
+          "legibilidad_escalabilidad": 6,
+          "impacto_visual": 6,
+          "versatilidad_cromatica": 4,
+          "innovacion_tecnologica": 7
+        },
+        "total": 36,
+        "justificacion": {
+          "originalidad": "Una versión minimalista del concepto de flujo de datos, utilizando cuadrados en lugar de puntos. Es una ejecución limpia pero no muy original.",
+          "adecuacion_marca": "Las dos filas de cuadrados pueden evocar productos en una estantería o un código de barras, lo que es muy relevante. El gradiente sugiere análisis.",
+          "legibilidad_escalabilidad": "El texto es claro. Los cuadrados son pequeños y el gradiente se perderá, pero la forma general de las dos líneas se mantendrá razonablemente bien.",
+          "impacto_visual": "Tiene una apariencia profesional, limpia y ordenada. Su impacto es más de confianza corporativa que de emoción visual.",
+          "versatilidad_cromatica": "El gradiente de color es una parte importante del concepto (proceso), por lo que se perdería en una versión de un solo color.",
+          "innovacion_tecnologica": "La representación de una cuadrícula de datos que se procesa (cambia de color) es una metáfora clara y efectiva para la tecnología de análisis."
+        },
+        "tanda": 4,
+        "nombre_archivo": "ai_studio_code (3).txt",
+        "posicion_en_tanda": 5,
+        "id_global": 35,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 60.0,
+        "ranking_global": 21,
+        "logo_id_original": "tanda_4_logo_05.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_41.png",
+        "scores": {
+          "originalidad": 4,
+          "adecuacion_marca": 6,
+          "legibilidad_escalabilidad": 4,
+          "impacto_visual": 5,
+          "versatilidad_cromatica": 3,
+          "innovacion_tecnologica": 7
+        },
+        "total": 29,
+        "justificacion": {
+          "originalidad": "Es una variación de color y tipografía de un concepto ya visto (línea de puntos que se desvanece). La idea central no es nueva.",
+          "adecuacion_marca": "La paleta de colores rojo/gris es seria, pero puede tener connotaciones de 'error' o 'alerta'. El concepto de datos en flujo es adecuado.",
+          "legibilidad_escalabilidad": "La tipografía es clara, pero el elemento clave, la línea de puntos con gradiente, tiene una pobre escalabilidad. Los puntos más claros desaparecerán.",
+          "impacto_visual": "El diseño es limpio pero la paleta de colores es algo apagada. No logra generar un impacto visual fuerte o memorable.",
+          "versatilidad_cromatica": "El efecto de gradiente en los puntos es esencial para el diseño, por lo que no se puede adaptar a un solo color sin perder el concepto.",
+          "innovacion_tecnologica": "La metáfora del flujo de datos que se transforma o analiza sigue siendo una representación efectiva del núcleo tecnológico de la marca."
+        },
+        "tanda": 3,
+        "nombre_archivo": "ai_studio_code (2).txt",
+        "posicion_en_tanda": 7,
+        "id_global": 27,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 48.33,
+        "ranking_global": 37,
+        "logo_id_original": "tanda_3_logo_07.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_43.png",
+        "scores": {
+          "originalidad": 4,
+          "adecuacion_marca": 7,
+          "legibilidad_escalabilidad": 2,
+          "impacto_visual": 5,
+          "versatilidad_cromatica": 2,
+          "innovacion_tecnologica": 7
+        },
+        "total": 27,
+        "justificacion": {
+          "originalidad": "El uso de una línea de puntos que simula una onda de sonido o un gráfico de datos es un recurso visual muy común en la industria tecnológica.",
+          "adecuacion_marca": "Representa bien el flujo y análisis de datos. La paleta de colores es moderna y amigable. Se alinea con el sector tecnológico.",
+          "legibilidad_escalabilidad": "El texto es legible, pero la línea de puntos es extremadamente fina y detallada. Se desintegrará por completo en tamaños pequeños, haciéndola inutilizable.",
+          "impacto_visual": "Es estéticamente agradable pero parece demasiado delicado y frágil para una marca de tecnología B2B que debe transmitir robustez.",
+          "versatilidad_cromatica": "El diseño depende por completo del gradiente y de los puntos finos, por lo que no se puede adaptar a un solo color.",
+          "innovacion_tecnologica": "La onda de datos es una metáfora clara para el análisis y el procesamiento, comunicando bien el aspecto tecnológico."
+        },
+        "tanda": 4,
+        "nombre_archivo": "ai_studio_code (3).txt",
+        "posicion_en_tanda": 6,
+        "id_global": 36,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 45.0,
+        "ranking_global": 41,
+        "logo_id_original": "tanda_4_logo_06.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_44.png",
+        "scores": {
+          "originalidad": 7,
+          "adecuacion_marca": 9,
+          "legibilidad_escalabilidad": 6,
+          "impacto_visual": 8,
+          "versatilidad_cromatica": 9,
+          "innovacion_tecnologica": 9
+        },
+        "total": 48,
+        "justificacion": {
+          "originalidad": "El diseño es simple, pero la ejecución es muy elegante y bien pensada. El marco delgado que resalta 'AI' es un toque distintivo y memorable.",
+          "adecuacion_marca": "Excelente. El marco actúa como un 'cuadro delimitador' (bounding box), una referencia directa a la visión por computadora. Transmite precisión, enfoque y tecnología.",
+          "legibilidad_escalabilidad": "El texto es muy legible. El marco y la línea de puntos son finos y podrían perder algo de definición en tamaños extremadamente pequeños, pero en general escala bien.",
+          "impacto_visual": "Tiene un impacto visual fuerte que proviene de su inteligencia y limpieza, no de la estridencia. Es profesional, moderno y memorable.",
+          "versatilidad_cromatica": "El diseño de dos colores es fuerte y se traduce perfectamente a una versión de un solo color, manteniendo intacto su concepto.",
+          "innovacion_tecnologica": "La referencia al 'bounding box' es una de las representaciones visuales más inteligentes y directas de la tecnología de visión por computadora vistas."
+        },
+        "tanda": 4,
+        "nombre_archivo": "ai_studio_code (3).txt",
+        "posicion_en_tanda": 9,
+        "id_global": 39,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 80.0,
+        "ranking_global": 2,
+        "logo_id_original": "tanda_4_logo_09.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_46.png",
+        "scores": {
+          "originalidad": 7,
+          "adecuacion_marca": 8,
+          "legibilidad_escalabilidad": 2,
+          "impacto_visual": 5,
+          "versatilidad_cromatica": 1,
+          "innovacion_tecnologica": 8
+        },
+        "total": 31,
+        "justificacion": {
+          "originalidad": "El uso de un efecto de desenfoque de movimiento o desvanecimiento en la propia tipografía es una aproximación menos común y conceptualmente interesante.",
+          "adecuacion_marca": "El efecto sugiere velocidad, procesamiento y transformación, conceptos muy alineados con una plataforma de IA. Los puntos que se desvanecen refuerzan la idea de datos.",
+          "legibilidad_escalabilidad": "La legibilidad está severamente comprometida por el efecto de desenfoque. En tamaños pequeños, las letras 'fAI' serán casi ilegibles. Los puntos también desaparecerán.",
+          "impacto_visual": "Aunque el efecto es llamativo, la pobre legibilidad le resta impacto y puede hacer que el logo parezca un error de renderizado en lugar de una elección de diseño intencionada.",
+          "versatilidad_cromatica": "El diseño es totalmente dependiente de efectos de gradiente y desenfoque, lo que lo hace imposible de reproducir en un solo color sólido. Versatilidad nula.",
+          "innovacion_tecnologica": "La representación visual del procesamiento de datos en tiempo real o a gran velocidad está muy bien lograda conceptualmente a través de los efectos visuales."
+        },
+        "tanda": 3,
+        "nombre_archivo": "ai_studio_code (2).txt",
+        "posicion_en_tanda": 2,
+        "id_global": 22,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 51.67,
+        "ranking_global": 35,
+        "logo_id_original": "tanda_3_logo_02.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_47.png",
+        "scores": {
+          "originalidad": 4,
+          "adecuacion_marca": 7,
+          "legibilidad_escalabilidad": 10,
+          "impacto_visual": 8,
+          "versatilidad_cromatica": 9,
+          "innovacion_tecnologica": 5
+        },
+        "total": 43,
+        "justificacion": {
+          "originalidad": "Encapsular parte del nombre en una forma geométrica es un recurso de diseño muy común. El paralelogramo inclinado le da dinamismo pero la idea es básica.",
+          "adecuacion_marca": "Resalta 'AI' de forma clara. La forma puede aludir a una etiqueta o un marcador, lo que tiene cierta relevancia para el retail. La paleta de colores es enérgica.",
+          "legibilidad_escalabilidad": "Excelente. El diseño es simple, audaz y con alto contraste. Funcionará perfectamente en cualquier tamaño, desde un favicon a una valla.",
+          "impacto_visual": "Es fuerte, directo y fácil de recordar. La simplicidad y el color naranja brillante le confieren un gran impacto visual.",
+          "versatilidad_cromatica": "Muy versátil. La versión a un solo color funciona perfectamente, convirtiéndose en una forma contorneada. Se adapta bien a cualquier fondo.",
+          "innovacion_tecnologica": "Comunica 'tecnología' de una manera muy general. Carece de elementos que sugieran específicamente visión por computadora, precisión o análisis avanzado."
+        },
+        "tanda": 3,
+        "nombre_archivo": "ai_studio_code (2).txt",
+        "posicion_en_tanda": 5,
+        "id_global": 25,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 71.67,
+        "ranking_global": 3,
+        "logo_id_original": "tanda_3_logo_05.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_48.png",
+        "scores": {
+          "originalidad": 4,
+          "adecuacion_marca": 7,
+          "legibilidad_escalabilidad": 3,
+          "impacto_visual": 6,
+          "versatilidad_cromatica": 2,
+          "innovacion_tecnologica": 7
+        },
+        "total": 29,
+        "justificacion": {
+          "originalidad": "Es una variación de color de un concepto ya evaluado (matriz de puntos con gradiente). La idea no es nueva, solo la paleta cromática.",
+          "adecuacion_marca": "El concepto de escaneo o procesamiento de datos se mantiene y es adecuado. La paleta de colores naranja/gris es moderna y profesional.",
+          "legibilidad_escalabilidad": "Sufre de los mismos problemas de escalabilidad que sus contrapartes: los puntos más pequeños y claros del gradiente desaparecerán al reducir el tamaño.",
+          "impacto_visual": "La combinación de colores es atractiva y tiene buena presencia, pero el concepto subyacente ya ha sido visto.",
+          "versatilidad_cromatica": "Totalmente dependiente del efecto de gradiente para su correcta interpretación. No funciona en un solo color.",
+          "innovacion_tecnologica": "La metáfora del flujo de datos que se analiza y transforma sigue siendo una forma efectiva de comunicar el propósito tecnológico de la marca."
+        },
+        "tanda": 2,
+        "nombre_archivo": "ai_studio_code (1).txt",
+        "posicion_en_tanda": 9,
+        "id_global": 19,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 48.33,
+        "ranking_global": 38,
+        "logo_id_original": "tanda_2_logo_09.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_49.png",
+        "scores": {
+          "originalidad": 3,
+          "adecuacion_marca": 6,
+          "legibilidad_escalabilidad": 2,
+          "impacto_visual": 4,
+          "versatilidad_cromatica": 2,
+          "innovacion_tecnologica": 6
+        },
+        "total": 23,
+        "justificacion": {
+          "originalidad": "Este diseño es una combinación de elementos vistos en múltiples logos anteriores (corchetes, línea de datos, caja con brillo). Carece de una idea central única y se siente como un collage.",
+          "adecuacion_marca": "Intenta comunicar demasias cosas a la vez (enfoque, datos, IA) y el resultado es confuso y recargado, lo que va en contra de la idea de precisión y claridad.",
+          "legibilidad_escalabilidad": "Pésima escalabilidad. Combina múltiples elementos problemáticos: puntos finos, un efecto de brillo y líneas delgadas. En tamaño reducido será ilegible.",
+          "impacto_visual": "El logo está visualmente sobrecargado. Los diferentes elementos compiten entre sí en lugar de complementarse, lo que resulta en un impacto visual débil y desordenado.",
+          "versatilidad_cromatica": "La presencia del efecto de brillo en la caja de 'AI' lo hace inadecuado para la reproducción en un solo color.",
+          "innovacion_tecnologica": "Aunque utiliza múltiples significantes de tecnología, su combinación desordenada no logra transmitir una imagen de innovación o sofisticación."
+        },
+        "tanda": 2,
+        "nombre_archivo": "ai_studio_code (1).txt",
+        "posicion_en_tanda": 7,
+        "id_global": 17,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 38.33,
+        "ranking_global": 43,
+        "logo_id_original": "tanda_2_logo_07.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_50.png",
+        "scores": {
+          "originalidad": 3,
+          "adecuacion_marca": 6,
+          "legibilidad_escalabilidad": 2,
+          "impacto_visual": 4,
+          "versatilidad_cromatica": 2,
+          "innovacion_tecnologica": 6
+        },
+        "total": 23,
+        "justificacion": {
+          "originalidad": "Este logo es idéntico al anterior. Es una combinación de elementos vistos en múltiples logos anteriores (corchetes, línea de datos, caja con brillo). Carece de una idea central única y se siente como un collage.",
+          "adecuacion_marca": "Intenta comunicar demasias cosas a la vez (enfoque, datos, IA) y el resultado es confuso y recargado, lo que va en contra de la idea de precisión y claridad.",
+          "legibilidad_escalabilidad": "Pésima escalabilidad. Combina múltiples elementos problemáticos: puntos finos, un efecto de brillo y líneas delgadas. En tamaño reducido será ilegible.",
+          "impacto_visual": "El logo está visualmente sobrecargado. Los diferentes elementos compiten entre sí en lugar de complementarse, lo que resulta en un impacto visual débil y desordenado.",
+          "versatilidad_cromatica": "La presencia del efecto de brillo en la caja de 'AI' lo hace inadecuado para la reproducción en un solo color.",
+          "innovacion_tecnologica": "Aunque utiliza múltiples significantes de tecnología, su combinación desordenada no logra transmitir una imagen de innovación o sofisticación."
+        },
+        "tanda": 2,
+        "nombre_archivo": "ai_studio_code (1).txt",
+        "posicion_en_tanda": 8,
+        "id_global": 18,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 38.33,
+        "ranking_global": 44,
+        "logo_id_original": "tanda_2_logo_08.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_51.png",
+        "scores": {
+          "originalidad": 3,
+          "adecuacion_marca": 6,
+          "legibilidad_escalabilidad": 9,
+          "impacto_visual": 5,
+          "versatilidad_cromatica": 6,
+          "innovacion_tecnologica": 4
+        },
+        "total": 33,
+        "justificacion": {
+          "originalidad": "Colocar una simple barra de color detrás de una parte del nombre es una técnica de diseño muy básica y poco original.",
+          "adecuacion_marca": "La barra podría interpretarse como una estantería o un bloque de datos, lo que le da cierta relevancia, pero la conexión es débil.",
+          "legibilidad_escalabilidad": "El diseño es simple y audaz, con formas claras. Escalará bien en la mayoría de las aplicaciones.",
+          "impacto_visual": "El bloque gris detrás de 'cing' se siente un poco arbitrario y desequilibrado. No crea un fuerte impacto visual.",
+          "versatilidad_cromatica": "La versión de un solo color sería un poco extraña, ya que el bloque tendría que ser un contorno o desaparecer, cambiando el diseño.",
+          "innovacion_tecnologica": "El bloque no comunica ningún concepto tecnológico específico más allá de la idea de 'estructura' o 'agrupación'."
+        },
+        "tanda": 4,
+        "nombre_archivo": "ai_studio_code (3).txt",
+        "posicion_en_tanda": 15,
+        "id_global": 45,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 55.0,
+        "ranking_global": 30,
+        "logo_id_original": "tanda_4_logo_15.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_52.png",
+        "scores": {
+          "originalidad": 6,
+          "adecuacion_marca": 8,
+          "legibilidad_escalabilidad": 3,
+          "impacto_visual": 7,
+          "versatilidad_cromatica": 3,
+          "innovacion_tecnologica": 8
+        },
+        "total": 35,
+        "justificacion": {
+          "originalidad": "La combinación de un marco, una matriz de puntos y un efecto de 'desintegración' es una mezcla interesante de elementos ya vistos.",
+          "adecuacion_marca": "El marco sugiere enfoque, mientras que los puntos que se desprenden son una excelente metáfora visual para el análisis y la extracción de datos.",
+          "legibilidad_escalabilidad": "El texto principal es claro, pero la matriz de puntos y los puntos sueltos son demasiado pequeños y detallados, lo que compromete gravemente la legibilidad a pequeña escala.",
+          "impacto_visual": "El color rojo fuerte y la sensación de movimiento le dan un impacto visual considerable y lo hacen dinámico.",
+          "versatilidad_cromatica": "El gradiente de color en los puntos es crucial para el efecto, lo que dificulta su reproducción en un solo color.",
+          "innovacion_tecnologica": "La idea de deconstruir una imagen o una línea de base en puntos de datos es una representación muy fuerte y adecuada de la IA de visión por computadora."
+        },
+        "tanda": 4,
+        "nombre_archivo": "ai_studio_code (3).txt",
+        "posicion_en_tanda": 1,
+        "id_global": 31,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 58.33,
+        "ranking_global": 26,
+        "logo_id_original": "tanda_4_logo_01.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_53.png",
+        "scores": {
+          "originalidad": 2,
+          "adecuacion_marca": 4,
+          "legibilidad_escalabilidad": 2,
+          "impacto_visual": 3,
+          "versatilidad_cromatica": 1,
+          "innovacion_tecnologica": 4
+        },
+        "total": 16,
+        "justificacion": {
+          "originalidad": "Este logo es un collage de clichés de diseño tecnológico: un efecto metálico/cromado, una línea de puntos con gradiente y una forma de contenedor.",
+          "adecuacion_marca": "Intenta comunicar 'tecnología' de tantas maneras a la vez que termina sin comunicar nada con claridad. Se siente genérico y anticuado.",
+          "legibilidad_escalabilidad": "Muy mala. Los efectos de gradiente, el brillo metálico y la línea de puntos finos se reproducirán muy mal en cualquier tamaño pequeño.",
+          "impacto_visual": "El diseño está sobrecargado y los efectos visuales (especialmente el metálico) están pasados de moda. Tiene un impacto visual negativo.",
+          "versatilidad_cromatica": "Imposible de reproducir en un solo color debido a los múltiples gradientes y efectos. Versatilidad nula.",
+          "innovacion_tecnologica": "El uso de clichés visuales de la década de 2000 hace que la marca parezca todo menos innovadora."
+        },
+        "tanda": 4,
+        "nombre_archivo": "ai_studio_code (3).txt",
+        "posicion_en_tanda": 7,
+        "id_global": 37,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 26.67,
+        "ranking_global": 45,
+        "logo_id_original": "tanda_4_logo_07.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_55.png",
+        "scores": {
+          "originalidad": 6,
+          "adecuacion_marca": 8,
+          "legibilidad_escalabilidad": 4,
+          "impacto_visual": 8,
+          "versatilidad_cromatica": 8,
+          "innovacion_tecnologica": 8
+        },
+        "total": 42,
+        "justificacion": {
+          "originalidad": "La integración de la desintegración en píxeles en la última letra del nombre es una ejecución elegante de un concepto conocido.",
+          "adecuacion_marca": "Los píxeles se conectan directamente con la visión digital y el flujo sugiere procesamiento de datos. La paleta de colores es vibrante y tecnológica.",
+          "legibilidad_escalabilidad": "La legibilidad de la letra 'g' se ve comprometida. La corriente de píxeles es demasiado detallada y perderá su forma y claridad en tamaños pequeños.",
+          "impacto_visual": "Es muy dinámico y moderno. El verde neón sobre el negro crea un alto contraste y un fuerte impacto visual que es fácil de recordar.",
+          "versatilidad_cromatica": "El diseño de dos colores es bastante robusto y se puede adaptar a una versión monocromática con relativa facilidad.",
+          "innovacion_tecnologica": "Comunica de manera muy efectiva la idea de digitalización, análisis y flujo de datos, que son el núcleo de la tecnología de la marca."
+        },
+        "tanda": 4,
+        "nombre_archivo": "ai_studio_code (3).txt",
+        "posicion_en_tanda": 4,
+        "id_global": 34,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 70.0,
+        "ranking_global": 8,
+        "logo_id_original": "tanda_4_logo_04.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_57.png",
+        "scores": {
+          "originalidad": 2,
+          "adecuacion_marca": 3,
+          "legibilidad_escalabilidad": 1,
+          "impacto_visual": 2,
+          "versatilidad_cromatica": 1,
+          "innovacion_tecnologica": 3
+        },
+        "total": 12,
+        "justificacion": {
+          "originalidad": "Un collage de efectos anticuados y clichés de diseño: una caja con brillo, un gradiente de puntos y una paleta de colores discordante.",
+          "adecuacion_marca": "El diseño es confuso y desordenado, lo que va en contra de los valores de la marca de precisión y confiabilidad. La paleta de colores es poco profesional.",
+          "legibilidad_escalabilidad": "Pésima. Los efectos de brillo, los gradientes y los puntos finos hacen que el logo sea completamente inutilizable en tamaños pequeños.",
+          "impacto_visual": "El impacto es negativo. Parece un logo amateur de principios de la década de 2000. Es visualmente desagradable.",
+          "versatilidad_cromatica": "Nula. El diseño depende completamente de efectos complejos que no se pueden reproducir en un solo color.",
+          "innovacion_tecnologica": "El uso de efectos visuales anticuados hace que la marca parezca tecnológicamente atrasada, no innovadora."
+        },
+        "tanda": 4,
+        "nombre_archivo": "ai_studio_code (3).txt",
+        "posicion_en_tanda": 16,
+        "id_global": 46,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 20.0,
+        "ranking_global": 46,
+        "logo_id_original": "tanda_4_logo_16.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_58.png",
+        "scores": {
+          "originalidad": 2,
+          "adecuacion_marca": 3,
+          "legibilidad_escalabilidad": 1,
+          "impacto_visual": 2,
+          "versatilidad_cromatica": 1,
+          "innovacion_tecnologica": 3
+        },
+        "total": 12,
+        "justificacion": {
+          "originalidad": "Un duplicado con una ligera variación de color. Sigue siendo un collage de efectos anticuados y clichés de diseño.",
+          "adecuacion_marca": "El diseño es confuso y desordenado, lo que va en contra de los valores de la marca de precisión y confiabilidad.",
+          "legibilidad_escalabilidad": "Pésima. Los efectos de brillo, los gradientes y los puntos finos hacen que el logo sea completamente inutilizable en tamaños pequeños.",
+          "impacto_visual": "El impacto es negativo. Parece un logo amateur de principios de la década de 2000.",
+          "versatilidad_cromatica": "Nula. El diseño depende completamente de efectos complejos que no se pueden reproducir en un solo color.",
+          "innovacion_tecnologica": "El uso de efectos visuales anticuados hace que la marca parezca tecnológicamente atrasada, no innovadora."
+        },
+        "tanda": 4,
+        "nombre_archivo": "ai_studio_code (3).txt",
+        "posicion_en_tanda": 21,
+        "id_global": 51,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 20.0,
+        "ranking_global": 47,
+        "logo_id_original": "tanda_4_logo_21.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_59.png",
+        "scores": {
+          "originalidad": 6,
+          "adecuacion_marca": 7,
+          "legibilidad_escalabilidad": 4,
+          "impacto_visual": 6,
+          "versatilidad_cromatica": 4,
+          "innovacion_tecnologica": 7
+        },
+        "total": 34,
+        "justificacion": {
+          "originalidad": "La combinación de una forma de cápsula orgánica con elementos de píxeles es una mezcla interesante de conceptos, aunque los elementos por separado son comunes.",
+          "adecuacion_marca": "Destaca 'AI' y los píxeles aluden a la visión digital. La superposición de la 'c' sobre la forma se siente un poco forzada pero el concepto general es adecuado.",
+          "legibilidad_escalabilidad": "Los píxeles en la parte inferior son demasiado pequeños y se perderán. La 'AI' en negativo y la 'c' superpuesta pueden perder claridad en tamaños reducidos.",
+          "impacto_visual": "El diseño es moderno y tiene una paleta de colores agradable, pero la composición es algo compleja y no logra un impacto fuerte e inmediato.",
+          "versatilidad_cromatica": "La versión en un solo color sería problemática debido al texto en negativo y la superposición. Requeriría una versión simplificada para ser versátil.",
+          "innovacion_tecnologica": "Comunica bien la idea de aplicar un 'lente' de IA (la forma de cápsula) a los datos visuales (los píxeles), lo cual es una buena metáfora."
+        },
+        "tanda": 3,
+        "nombre_archivo": "ai_studio_code (2).txt",
+        "posicion_en_tanda": 1,
+        "id_global": 21,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 56.67,
+        "ranking_global": 28,
+        "logo_id_original": "tanda_3_logo_01.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_60.png",
+        "scores": {
+          "originalidad": 5,
+          "adecuacion_marca": 7,
+          "legibilidad_escalabilidad": 6,
+          "impacto_visual": 8,
+          "versatilidad_cromatica": 7,
+          "innovacion_tecnologica": 8
+        },
+        "total": 41,
+        "justificacion": {
+          "originalidad": "Una versión recoloreada de un concepto de marco ya visto. La combinación de colores azul y naranja es audaz pero común.",
+          "adecuacion_marca": "El concepto de marco y la línea de datos son muy relevantes para la visión por computadora. La paleta de colores es enérgica.",
+          "legibilidad_escalabilidad": "El texto es claro. La línea de puntos finos es el único punto débil en cuanto a la escalabilidad.",
+          "impacto_visual": "La combinación de colores complementarios (azul/naranja) crea un contraste muy alto y un fuerte impacto visual.",
+          "versatilidad_cromatica": "El diseño de dos colores es fuerte y se puede adaptar a una versión monocromática, aunque se perdería el énfasis del color.",
+          "innovacion_tecnologica": "El marco como 'bounding box' sigue siendo una de las metáforas visuales más fuertes y directas para la tecnología de la marca."
+        },
+        "tanda": 4,
+        "nombre_archivo": "ai_studio_code (3).txt",
+        "posicion_en_tanda": 23,
+        "id_global": 53,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 68.33,
+        "ranking_global": 9,
+        "logo_id_original": "tanda_4_logo_23.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      },
+      {
+        "logo_id": "logo_61.png",
+        "scores": {
+          "originalidad": 7,
+          "adecuacion_marca": 9,
+          "legibilidad_escalabilidad": 3,
+          "impacto_visual": 7,
+          "versatilidad_cromatica": 8,
+          "innovacion_tecnologica": 9
+        },
+        "total": 43,
+        "justificacion": {
+          "originalidad": "Una variación de un concepto fuerte ya visto. La adición del tagline es un cambio, pero el núcleo del logo es el mismo.",
+          "adecuacion_marca": "El logo en sí es excelente. El tagline 'PixeL - ProducT' aclara explícitamente el negocio, lo cual es muy bueno para la adecuación.",
+          "legibilidad_escalabilidad": "El principal problema es el tagline. Es demasiado pequeño y su capitalización es extraña, lo que lo hace completamente ilegible en tamaños reducidos. Esto penaliza mucho la puntuación.",
+          "impacto_visual": "El logo principal es fuerte e inteligente. El tagline, sin embargo, añade desorden visual y resta elegancia al conjunto.",
+          "versatilidad_cromatica": "El logo principal es muy versátil. Para muchas aplicaciones, el tagline tendría que ser eliminado.",
+          "innovacion_tecnologica": "El concepto del marco que rodea a 'fAI' como un cuadro delimitador sigue siendo una representación brillante de la visión por computadora."
+        },
+        "tanda": 4,
+        "nombre_archivo": "ai_studio_code (3).txt",
+        "posicion_en_tanda": 12,
+        "id_global": 42,
+        "clasificado": true,
+        "fase": "Clasificatoria",
+        "fecha_evaluacion": "2025-01-01",
+        "puntuacion_normalizada": 71.67,
+        "ranking_global": 4,
+        "logo_id_original": "tanda_4_logo_12.png",
+        "mapeo_aplicado": true,
+        "fecha_mapeo": "2025-01-01"
+      }
+    ],
+    "sin_mapeo": []
+  }
+}

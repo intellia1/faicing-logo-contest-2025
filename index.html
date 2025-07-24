@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fAIcing Logo Contest 2025 - Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            200: '#bae6fd',
+                            300: '#7dd3fc',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                            950: '#082f49'
+                        },
+                        accent: {
+                            50: '#fdf4ff',
+                            100: '#fae8ff',
+                            200: '#f5d0fe',
+                            300: '#f0abfc',
+                            400: '#e879f9',
+                            500: '#d946ef',
+                            600: '#c026d3',
+                            700: '#a21caf',
+                            800: '#86198f',
+                            900: '#701a75',
+                            950: '#4a044e'
+                        },
+                        success: {
+                            50: '#ecfdf5',
+                            100: '#d1fae5',
+                            200: '#a7f3d0',
+                            300: '#6ee7b7',
+                            400: '#34d399',
+                            500: '#10b981',
+                            600: '#059669',
+                            700: '#047857',
+                            800: '#065f46',
+                            900: '#064e3b',
+                            950: '#022c22'
+                        }
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif'],
+                        'display': ['Poppins', 'system-ui', 'sans-serif']
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.5s ease-in-out',
+                        'slide-up': 'slideUp 0.3s ease-out',
+                        'pulse-soft': 'pulse 2s infinite'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes slideUp {
+            from { 
+                opacity: 0; 
+                transform: translateY(20px); 
+            }
+            to { 
+                opacity: 1; 
+                transform: translateY(0); 
+            }
+        }
+        
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .score-bar {
+            background: linear-gradient(90deg, #ef4444 0%, #f97316 30%, #eab308 60%, #22c55e 100%);
+            border-radius: 9999px;
+            height: 8px;
+        }
+        
+        .table-row-hover {
+            transition: all 0.2s ease;
+        }
+        
+        .table-row-hover:hover {
+            background: rgba(59, 130, 246, 0.1);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .loading-spinner {
+            border: 4px solid rgba(255, 255, 255, 0.1);
+            border-top: 4px solid #3b82f6;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .badge-mapeado {
+            background: linear-gradient(45deg, #10b981, #059669);
+        }
+
+        .badge-sin-mapeo {
+            background: linear-gradient(45deg, #f59e0b, #d97706);
+        }
+
+        .badge-consolidado {
+            background: linear-gradient(45deg, #8b5cf6, #7c3aed);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-950 text-white min-h-screen font-sans">
+    <div x-data="logoContest()" class="container mx-auto px-4 py-8">
+        <!-- Loading State -->
+        <div x-show="cargando" class="fixed inset-0 bg-gray-950 bg-opacity-90 flex items-center justify-center z-50">
+            <div class="text-center">
+                <div class="loading-spinner mx-auto mb-4"></div>
+                <p class="text-xl text-gray-300">Cargando datos del concurso...</p>
+            </div>
+        </div>
+
+        <!-- Error State -->
+        <div x-show="error" class="glass-effect rounded-xl p-6 mb-8 border-red-500 border">
+            <div class="flex items-center space-x-3">
+                <i class="fas fa-exclamation-triangle text-red-500 text-xl"></i>
+                <div>
+                    <h3 class="text-lg font-semibold text-red-400">Error al cargar datos</h3>
+                    <p class="text-gray-300" x-text="mensajeError"></p>
+                    <button @click="cargarDatos()" class="mt-3 bg-red-600 hover:bg-red-700 px-4 py-2 rounded-lg transition-colors">
+                        <i class="fas fa-redo mr-2"></i>Reintentar
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <header x-show="!cargando && !error" class="text-center mb-12 animate-fade-in">
+            <div class="glass-effect rounded-2xl p-8 mb-8">
+                <h1 class="text-5xl font-display font-bold gradient-text mb-4">
+                    fAIcing Logo Contest 2025
+                </h1>
+                <p class="text-xl text-gray-300 mb-6">
+                    <span x-text="metadata?.descripcion || 'Rebranding Challenge - Logos Finalizados'"></span>
+                </p>
+                <div class="flex justify-center items-center space-x-8 text-sm flex-wrap gap-4">
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-trophy text-yellow-500"></i>
+                        <span x-text="`${logos.length} Logos Evaluados`"></span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-chart-line text-blue-500"></i>
+                        <span x-text="`Promedio: ${promedioGeneral.toFixed(1)}/60`"></span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-star text-purple-500"></i>
+                        <span x-text="`Mejor: ${mejorPuntuacion}/60`"></span>
+                    </div>
+                    <div class="flex items-center space-x-2" x-show="estadisticasMapeo">
+                        <i class="fas fa-sync-alt text-green-500"></i>
+                        <span x-text="`${estadisticasMapeo?.logos_mapeados || 0} Mapeados`"></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Stats Dashboard -->
+        <section x-show="!cargando && !error" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-12">
+            <div class="glass-effect rounded-xl p-6 text-center animate-slide-up">
+                <div class="text-3xl font-bold text-success-400" x-text="logos.length"></div>
+                <div class="text-gray-400 text-sm">Total Logos</div>
+            </div>
+            <div class="glass-effect rounded-xl p-6 text-center animate-slide-up" style="animation-delay: 0.1s">
+                <div class="text-3xl font-bold text-primary-400" x-text="mejorPuntuacion"></div>
+                <div class="text-gray-400 text-sm">Mejor Puntuación</div>
+            </div>
+            <div class="glass-effect rounded-xl p-6 text-center animate-slide-up" style="animation-delay: 0.2s">
+                <div class="text-3xl font-bold text-accent-400" x-text="promedioGeneral.toFixed(1)"></div>
+                <div class="text-gray-400 text-sm">Promedio General</div>
+            </div>
+            <div class="glass-effect rounded-xl p-6 text-center animate-slide-up" style="animation-delay: 0.3s">
+                <div class="text-3xl font-bold text-yellow-400" x-text="tandas.length"></div>
+                <div class="text-gray-400 text-sm">Tandas Evaluadas</div>
+            </div>
+            <div class="glass-effect rounded-xl p-6 text-center animate-slide-up" style="animation-delay: 0.4s">
+                <div class="text-3xl font-bold text-emerald-400" x-text="logosMapeados"></div>
+                <div class="text-gray-400 text-sm">Logos Mapeados</div>
+            </div>
+        </section>
+
+        <!-- Mapeo Info Alert -->
+        <section x-show="!cargando && !error && estadisticasMapeo" class="glass-effect rounded-xl p-6 mb-8 border-blue-500 border">
+            <div class="flex items-start space-x-3">
+                <i class="fas fa-info-circle text-blue-500 text-xl mt-1"></i>
+                <div class="flex-1">
+                    <h3 class="text-lg font-semibold text-blue-400 mb-2">Información del Mapeo Aplicado</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+                        <div>
+                            <span class="text-gray-400">Logos mapeados:</span>
+                            <span class="text-white font-medium ml-2" x-text="estadisticasMapeo?.logos_mapeados || 0"></span>
+                        </div>
+                        <div>
+                            <span class="text-gray-400">Conflictos resueltos:</span>
+                            <span class="text-white font-medium ml-2" x-text="estadisticasMapeo?.conflictos_resueltos?.length || 0"></span>
+                        </div>
+                        <div>
+                            <span class="text-gray-400">Sin mapeo:</span>
+                            <span class="text-white font-medium ml-2" x-text="estadisticasMapeo?.logos_sin_mapeo || 0"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filters -->
+        <section x-show="!cargando && !error" class="glass-effect rounded-xl p-6 mb-8">
+            <div class="flex flex-wrap gap-4 items-center justify-between">
+                <div class="flex flex-wrap gap-4">
+                    <select x-model="filtroTanda" class="bg-gray-800 border border-gray-600 rounded-lg px-4 py-2 text-white focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                        <option value="">Todas las Tandas</option>
+                        <template x-for="tanda in tandas" :key="tanda">
+                            <option :value="tanda" x-text="`Tanda ${tanda}`"></option>
+                        </template>
+                    </select>
+                    
+                    <select x-model="filtroMapeo" class="bg-gray-800 border border-gray-600 rounded-lg px-4 py-2 text-white focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                        <option value="">Todos los Estados</option>
+                        <option value="mapeado">Solo Mapeados</option>
+                        <option value="sin_mapeo">Sin Mapeo</option>
+                        <option value="consolidado">Consolidados</option>
+                    </select>
+                    
+                    <select x-model="ordenarPor" class="bg-gray-800 border border-gray-600 rounded-lg px-4 py-2 text-white focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                        <option value="total">Puntuación Total</option>
+                        <option value="originalidad">Originalidad</option>
+                        <option value="adecuacion_marca">Adecuación Marca</option>
+                        <option value="legibilidad_escalabilidad">Legibilidad</option>
+                        <option value="impacto_visual">Impacto Visual</option>
+                        <option value="versatilidad_cromatica">Versatilidad</option>
+                        <option value="innovacion_tecnologica">Innovación Tech</option>
+                    </select>
+                </div>
+                
+                <div class="flex items-center space-x-4">
+                    <button @click="verGrafico = !verGrafico" 
+                            class="bg-primary-600 hover:bg-primary-700 px-4 py-2 rounded-lg transition-colors flex items-center space-x-2">
+                        <i class="fas fa-chart-bar"></i>
+                        <span x-text="verGrafico ? 'Ocultar Gráfico' : 'Ver Gráfico'"></span>
+                    </button>
+                    <div class="text-sm text-gray-400">
+                        <span x-text="logosFiltrados.length"></span> resultados
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chart Section -->
+        <section x-show="!cargando && !error && verGrafico" x-transition class="glass-effect rounded-xl p-6 mb-8">
+            <h3 class="text-xl font-semibold mb-4">Distribución de Puntuaciones</h3>
+            <div class="h-64">
+                <canvas id="scoresChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Logos Table -->
+        <section x-show="!cargando && !error" class="glass-effect rounded-xl overflow-hidden">
+            <div class="overflow-x-auto">
+                <table class="w-full">
+                    <thead class="bg-gray-800/50">
+                        <tr>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">Ranking</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">Logo ID</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">Estado</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">Tanda</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">Total</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">Originalidad</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">Marca</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">Legibilidad</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">Impacto</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">Versatilidad</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">Innovación</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-700">
+                        <template x-for="(logo, index) in logosFiltrados" :key="logo.logo_id">
+                            <tr class="table-row-hover cursor-pointer" @click="toggleDetalles(logo.logo_id)">
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <span class="inline-flex items-center justify-center w-8 h-8 rounded-full text-sm font-medium"
+                                              :class="getRankingColor(logo.ranking_global || index + 1)">
+                                            <span x-text="logo.ranking_global || index + 1"></span>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="text-sm font-medium text-white" x-text="logo.logo_id"></div>
+                                    <div x-show="logo.logo_id_original && logo.logo_id_original !== logo.logo_id" 
+                                         class="text-xs text-gray-400" x-text="`Original: ${logo.logo_id_original}`"></div>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium"
+                                          :class="getEstadoBadge(logo)">
+                                        <span x-text="getEstadoTexto(logo)"></span>
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary-900 text-primary-200">
+                                        Tanda <span x-text="logo.tanda"></span>
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex items-center space-x-2">
+                                        <span class="text-lg font-bold" x-text="logo.total"></span>
+                                        <div class="w-16 bg-gray-700 rounded-full h-2">
+                                            <div class="score-bar h-2 rounded-full" 
+                                                 :style="`width: ${(logo.total / 60) * 100}%`"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <span x-text="logo.scores.originalidad" class="mr-2"></span>
+                                        <div class="w-12 bg-gray-700 rounded-full h-1.5">
+                                            <div class="bg-blue-500 h-1.5 rounded-full" 
+                                                 :style="`width: ${(logo.scores.originalidad / 10) * 100}%`"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <span x-text="logo.scores.adecuacion_marca" class="mr-2"></span>
+                                        <div class="w-12 bg-gray-700 rounded-full h-1.5">
+                                            <div class="bg-green-500 h-1.5 rounded-full" 
+                                                 :style="`width: ${(logo.scores.adecuacion_marca / 10) * 100}%`"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <span x-text="logo.scores.legibilidad_escalabilidad" class="mr-2"></span>
+                                        <div class="w-12 bg-gray-700 rounded-full h-1.5">
+                                            <div class="bg-yellow-500 h-1.5 rounded-full" 
+                                                 :style="`width: ${(logo.scores.legibilidad_escalabilidad / 10) * 100}%`"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <span x-text="logo.scores.impacto_visual" class="mr-2"></span>
+                                        <div class="w-12 bg-gray-700 rounded-full h-1.5">
+                                            <div class="bg-purple-500 h-1.5 rounded-full" 
+                                                 :style="`width: ${(logo.scores.impacto_visual / 10) * 100}%`"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <span x-text="logo.scores.versatilidad_cromatica" class="mr-2"></span>
+                                        <div class="w-12 bg-gray-700 rounded-full h-1.5">
+                                            <div class="bg-pink-500 h-1.5 rounded-full" 
+                                                 :style="`width: ${(logo.scores.versatilidad_cromatica / 10) * 100}%`"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <span x-text="logo.scores.innovacion_tecnologica" class="mr-2"></span>
+                                        <div class="w-12 bg-gray-700 rounded-full h-1.5">
+                                            <div class="bg-indigo-500 h-1.5 rounded-full" 
+                                                 :style="`width: ${(logo.scores.innovacion_tecnologica / 10) * 100}%`"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-300">
+                                    <button @click.stop="verDetalles(logo)" 
+                                            class="text-primary-400 hover:text-primary-300 transition-colors mr-2">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <span x-show="logo.es_consolidacion" 
+                                          class="text-purple-400" 
+                                          :title="`Consolidado de ${logo.cantidad_logos_consolidados} logos`">
+                                        <i class="fas fa-layer-group"></i>
+                                    </span>
+                                </td>
+                            </tr>
+                            <!-- Detalles expandibles -->
+                            <tr x-show="detallesVisible[logo.logo_id]" x-transition class="bg-gray-800/30">
+                                <td colspan="12" class="px-6 py-4">
+                                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                                        <div>
+                                            <h4 class="font-semibold text-white mb-3 flex items-center">
+                                                <i class="fas fa-clipboard-list mr-2"></i>
+                                                Justificaciones Detalladas
+                                            </h4>
+                                            <div class="space-y-3 text-sm">
+                                                <template x-for="[criterio, justificacion] in Object.entries(logo.justificacion || {})" :key="criterio">
+                                                    <div class="bg-gray-900/50 rounded-lg p-3">
+                                                        <div class="font-medium text-primary-300 mb-1" 
+                                                             x-text="criterio.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase())">
+                                                        </div>
+                                                        <div class="text-gray-300" x-text="justificacion"></div>
+                                                    </div>
+                                                </template>
+                                            </div>
+                                            
+                                            <!-- Info de consolidación -->
+                                            <div x-show="logo.es_consolidacion" class="mt-4">
+                                                <h5 class="font-medium text-purple-300 mb-2 flex items-center">
+                                                    <i class="fas fa-layer-group mr-2"></i>
+                                                    Logos Consolidados
+                                                </h5>
+                                                <div class="bg-purple-900/20 rounded-lg p-3 text-sm">
+                                                    <p class="text-gray-300 mb-2">
+                                                        Este logo consolidó <span class="font-bold" x-text="logo.cantidad_logos_consolidados"></span> 
+                                                        variantes usando el criterio: <span class="text-purple-300" x-text="logo.criterio_seleccion"></span>
+                                                    </p>
+                                                    <div x-show="logo.logos_consolidados?.length" class="space-y-1">
+                                                        <template x-for="consolidado in logo.logos_consolidados" :key="consolidado.logo_id_original">
+                                                            <div class="text-xs text-gray-400">
+                                                                • <span x-text="consolidado.logo_id_original"></span> 
+                                                                (Tanda <span x-text="consolidado.tanda"></span>, 
+                                                                <span x-text="consolidado.total"></span> pts) - 
+                                                                <span x-text="consolidado.razon_descarte"></span>
+                                                            </div>
+                                                        </template>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div>
+                                            <h4 class="font-semibold text-white mb-3 flex items-center">
+                                                <i class="fas fa-chart-radar mr-2"></i>
+                                                Radar de Puntuaciones
+                                            </h4>
+                                            <div class="bg-gray-900/50 rounded-lg p-4">
+                                                <canvas :id="`radar-${logo.logo_id.replace(/[^a-zA-Z0-9]/g, '')}`" class="max-h-64"></canvas>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Top 5 Highlight -->
+        <section x-show="!cargando && !error" class="mt-12">
+            <h3 class="text-2xl font-bold text-center mb-8 gradient-text">🏆 Top 5 Logos Destacados</h3>
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+                <template x-for="(logo, index) in logos.slice(0, 5)" :key="logo.logo_id">
+                    <div class="glass-effect rounded-xl p-4 text-center animate-slide-up"
+                         :style="`animation-delay: ${index * 0.1}s`">
+                        <div class="text-2xl mb-2" x-text="['🥇', '🥈', '🥉', '🏅', '🏅'][index]"></div>
+                        <div class="font-bold text-white text-sm" x-text="logo.logo_id"></div>
+                        <div class="text-xs text-gray-400" x-text="`Tanda ${logo.tanda}`"></div>
+                        <div class="text-lg font-bold text-primary-400 mt-2" x-text="`${logo.total}/60`"></div>
+                        <div class="text-xs text-gray-500" x-text="`${((logo.total/60)*100).toFixed(1)}%`"></div>
+                        <div x-show="logo.es_consolidacion" class="mt-1">
+                            <i class="fas fa-layer-group text-purple-400 text-xs" title="Logo consolidado"></i>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal de Detalles -->
+    <div x-show="modalAbierto" x-transition:enter="transition ease-out duration-300"
+         x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
+         x-transition:leave="transition ease-in duration-200"
+         x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"
+         class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50"
+         @click.self="cerrarModal()">
+        <div class="glass-effect rounded-2xl p-6 max-w-4xl w-full max-h-[90vh] overflow-y-auto"
+             x-transition:enter="transition ease-out duration-300"
+             x-transition:enter-start="opacity-0 transform scale-95"
+             x-transition:enter-end="opacity-100 transform scale-100"
+             x-transition:leave="transition ease-in duration-200"
+             x-transition:leave-start="opacity-100 transform scale-100"
+             x-transition:leave-end="opacity-0 transform scale-95">
+            <div class="flex justify-between items-center mb-6">
+                <h3 class="text-2xl font-bold gradient-text" x-text="`Detalles: ${logoSeleccionado?.logo_id}`"></h3>
+                <button @click="cerrarModal()" class="text-gray-400 hover:text-white transition-colors">
+                    <i class="fas fa-times text-xl"></i>
+                </button>
+            </div>
+            
+            <template x-if="logoSeleccionado">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="font-semibold text-white mb-4">Puntuaciones Detalladas</h4>
+                        <div class="space-y-4">
+                            <template x-for="[criterio, puntuacion] in Object.entries(logoSeleccionado.scores)" :key="criterio">
+                                <div class="bg-gray-900/50 rounded-lg p-4">
+                                    <div class="flex justify-between items-center mb-2">
+                                        <span class="font-medium text-white" 
+                                              x-text="criterio.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase())"></span>
+                                        <span class="text-primary-400 font-bold" x-text="`${puntuacion}/10`"></span>
+                                    </div>
+                                    <div class="w-full bg-gray-700 rounded-full h-2">
+                                        <div class="score-bar h-2 rounded-full" 
+                                             :style="`width: ${(puntuacion / 10) * 100}%`"></div>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+
+                        <!-- Información de mapeo -->
+                        <div class="mt-6 bg-blue-900/20 rounded-lg p-4">
+                            <h5 class="font-medium text-blue-300 mb-2 flex items-center">
+                                <i class="fas fa-sync-alt mr-2"></i>
+                                Información de Mapeo
+                            </h5>
+                            <div class="text-sm space-y-1">
+                                <div class="text-gray-300">
+                                    <span class="text-gray-400">Estado:</span>
+                                    <span class="ml-2" x-text="getEstadoTexto(logoSeleccionado)"></span>
+                                </div>
+                                <div x-show="logoSeleccionado.logo_id_original" class="text-gray-300">
+                                    <span class="text-gray-400">ID Original:</span>
+                                    <span class="ml-2" x-text="logoSeleccionado.logo_id_original"></span>
+                                </div>
+                                <div class="text-gray-300">
+                                    <span class="text-gray-400">Ranking Global:</span>
+                                    <span class="ml-2" x-text="`#${logoSeleccionado.ranking_global || 'N/A'}`"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-semibold text-white mb-4">Análisis Completo</h4>
+                        <div class="space-y-4 text-sm max-h-80 overflow-y-auto">
+                            <template x-for="[criterio, justificacion] in Object.entries(logoSeleccionado.justificacion || {})" :key="criterio">
+                                <div class="bg-gray-900/50 rounded-lg p-4">
+                                    <div class="font-medium text-primary-300 mb-2" 
+                                         x-text="criterio.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase())">
+                                    </div>
+                                    <div class="text-gray-300 leading-relaxed" x-text="justificacion"></div>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </div>
+
+    <script>
+        function logoContest() {
+            return {
+                // Estado
+                logos: [],
+                logosFiltrados: [],
+                metadata: null,
+                estadisticasMapeo: null,
+                cargando: true,
+                error: false,
+                mensajeError: '',
+                
+                // Filtros
+                filtroTanda: '',
+                filtroMapeo: '',
+                ordenarPor: 'total',
+                
+                // UI
+                verGrafico: false,
+                modalAbierto: false,
+                logoSeleccionado: null,
+                detallesVisible: {},
+                
+                // Estadísticas calculadas
+                mejorPuntuacion: 0,
+                promedioGeneral: 0,
+                tandas: [],
+                logosMapeados: 0,
+
+                async init() {
+                    await this.cargarDatos();
+                    this.configurarWatchers();
+                },
+
+                async cargarDatos() {
+                    this.cargando = true;
+                    this.error = false;
+                    
+                    try {
+                        // Intentar cargar el archivo JSON mapeado
+                        const response = await fetch('concurso_logos_faicing_mapeado.json');
+                        
+                        if (!response.ok) {
+                            throw new Error(`Error HTTP: ${response.status} - Asegúrate de que el archivo JSON esté en el mismo directorio`);
+                        }
+                        
+                        const data = await response.json();
+                        
+                        // Validar estructura de datos
+                        if (!data.logos || !Array.isArray(data.logos)) {
+                            throw new Error('Estructura de datos inválida: no se encontró array de logos');
+                        }
+                        
+                        // Cargar datos
+                        this.logos = data.logos;
+                        this.metadata = data.metadata;
+                        this.estadisticasMapeo = data.estadisticas_mapeo;
+                        
+                        // Calcular estadísticas
+                        this.calcularEstadisticas();
+                        this.filtrarLogos();
+                        
+                        console.log('✅ Datos cargados exitosamente:', {
+                            totalLogos: this.logos.length,
+                            metadata: this.metadata,
+                            estadisticasMapeo: this.estadisticasMapeo
+                        });
+                        
+                    } catch (error) {
+                        console.error('❌ Error cargando datos:', error);
+                        this.error = true;
+                        this.mensajeError = error.message;
+                        
+                        // Fallback a datos simulados en caso de error
+                        if (error.message.includes('404') || error.message.includes('fetch')) {
+                            this.mensajeError += ' | Usando datos de demostración...';
+                            this.cargarDatosDemostracion();
+                        }
+                    } finally {
+                        this.cargando = false;
+                    }
+                },
+
+                cargarDatosDemostracion() {
+                    // Datos mínimos para demostración
+                    this.logos = [
+                        {
+                            logo_id: "logo_08.png",
+                            logo_id_original: "tanda_1_logo_08.png",
+                            tanda: 1,
+                            total: 48,
+                            ranking_global: 1,
+                            mapeo_aplicado: true,
+                            scores: {
+                                originalidad: 8,
+                                adecuacion_marca: 9,
+                                legibilidad_escalabilidad: 6,
+                                impacto_visual: 8,
+                                versatilidad_cromatica: 8,
+                                innovacion_tecnologica: 9
+                            },
+                            justificacion: {
+                                originalidad: "La integración de los corchetes en la 'AI' y el corte afilado de la 'f' son detalles originales y bien ejecutados.",
+                                adecuacion_marca: "Excelente adecuación. El foco en 'AI', la precisión sugerida por los cortes y el aspecto general de alta tecnología reflejan perfectamente los valores de la marca.",
+                                legibilidad_escalabilidad: "El logo principal es muy legible. Sin embargo, el tagline 'PIXEL - PRODUCT' es demasiado pequeño.",
+                                impacto_visual: "Es un logo fuerte, moderno y con confianza. La combinación de colores y la composición son memorables.",
+                                versatilidad_cromatica: "La estructura de dos colores es robusta y se adaptará bien a versiones de un solo color.",
+                                innovacion_tecnologica: "Comunica tecnología avanzada de forma brillante. El encuadre de 'AI' es un guiño directo a la visión por computadora."
+                            }
+                        }
+                    ];
+                    
+                    this.metadata = {
+                        concurso: "fAIcing Logo Rebranding 2025 - DEMO",
+                        descripcion: "Datos de demostración - Carga el archivo JSON real para ver todos los logos"
+                    };
+                    
+                    this.estadisticasMapeo = {
+                        logos_mapeados: 1,
+                        logos_sin_mapeo: 0,
+                        conflictos_resueltos: []
+                    };
+                    
+                    this.calcularEstadisticas();
+                    this.filtrarLogos();
+                },
+
+                configurarWatchers() {
+                    this.$watch('filtroTanda', () => this.filtrarLogos());
+                    this.$watch('filtroMapeo', () => this.filtrarLogos());
+                    this.$watch('ordenarPor', () => this.filtrarLogos());
+                    this.$watch('verGrafico', () => {
+                        if (this.verGrafico) {
+                            this.$nextTick(() => this.crearGrafico());
+                        }
+                    });
+                },
+
+                calcularEstadisticas() {
+                    if (!this.logos || this.logos.length === 0) return;
+                    
+                    this.mejorPuntuacion = Math.max(...this.logos.map(logo => logo.total || 0));
+                    this.promedioGeneral = this.logos.reduce((sum, logo) => sum + (logo.total || 0), 0) / this.logos.length;
+                    this.tandas = [...new Set(this.logos.map(logo => logo.tanda))].sort();
+                    this.logosMapeados = this.logos.filter(logo => logo.mapeo_aplicado).length;
+                },
+
+                filtrarLogos() {
+                    let logosFiltrados = [...this.logos];
+                    
+                    // Filtrar por tanda
+                    if (this.filtroTanda) {
+                        logosFiltrados = logosFiltrados.filter(logo => logo.tanda.toString() === this.filtroTanda);
+                    }
+                    
+                    // Filtrar por estado de mapeo
+                    if (this.filtroMapeo) {
+                        switch (this.filtroMapeo) {
+                            case 'mapeado':
+                                logosFiltrados = logosFiltrados.filter(logo => logo.mapeo_aplicado);
+                                break;
+                            case 'sin_mapeo':
+                                logosFiltrados = logosFiltrados.filter(logo => !logo.mapeo_aplicado);
+                                break;
+                            case 'consolidado':
+                                logosFiltrados = logosFiltrados.filter(logo => logo.es_consolidacion);
+                                break;
+                        }
+                    }
+                    
+                    // Ordenar
+                    if (this.ordenarPor === 'total') {
+                        logosFiltrados.sort((a, b) => (b.total || 0) - (a.total || 0));
+                    } else {
+                        logosFiltrados.sort((a, b) => 
+                            (b.scores?.[this.ordenarPor] || 0) - (a.scores?.[this.ordenarPor] || 0)
+                        );
+                    }
+                    
+                    this.logosFiltrados = logosFiltrados;
+                },
+
+                getRankingColor(position) {
+                    if (position === 1) return 'bg-yellow-500 text-black';
+                    if (position === 2) return 'bg-gray-400 text-black';
+                    if (position === 3) return 'bg-orange-600 text-white';
+                    if (position <= 10) return 'bg-blue-600 text-white';
+                    return 'bg-gray-600 text-white';
+                },
+
+                getEstadoBadge(logo) {
+                    if (logo.es_consolidacion) return 'badge-consolidado text-white';
+                    if (logo.mapeo_aplicado) return 'badge-mapeado text-white';
+                    return 'badge-sin-mapeo text-white';
+                },
+
+                getEstadoTexto(logo) {
+                    if (logo.es_consolidacion) return 'Consolidado';
+                    if (logo.mapeo_aplicado) return 'Mapeado';
+                    return 'Sin Mapeo';
+                },
+
+                toggleDetalles(logoId) {
+                    this.detallesVisible[logoId] = !this.detallesVisible[logoId];
+                    if (this.detallesVisible[logoId]) {
+                        this.$nextTick(() => this.crearRadarChart(logoId));
+                    }
+                },
+
+                verDetalles(logo) {
+                    this.logoSeleccionado = logo;
+                    this.modalAbierto = true;
+                },
+
+                cerrarModal() {
+                    this.modalAbierto = false;
+                    this.logoSeleccionado = null;
+                },
+
+                crearGrafico() {
+                    const ctx = document.getElementById('scoresChart');
+                    if (!ctx) return;
+
+                    const ranges = [
+                        { min: 0, max: 20, label: '0-20', color: '#ef4444' },
+                        { min: 21, max: 30, label: '21-30', color: '#f97316' },
+                        { min: 31, max: 40, label: '31-40', color: '#eab308' },
+                        { min: 41, max: 50, label: '41-50', color: '#22c55e' },
+                        { min: 51, max: 60, label: '51-60', color: '#3b82f6' }
+                    ];
+
+                    const data = ranges.map(range => 
+                        this.logos.filter(logo => {
+                            const total = logo.total || 0;
+                            return total >= range.min && total <= range.max;
+                        }).length
+                    );
+
+                    // Limpiar gráfico anterior si existe
+                    if (window.scoresChart) {
+                        window.scoresChart.destroy();
+                    }
+
+                    window.scoresChart = new Chart(ctx, {
+                        type: 'doughnut',
+                        data: {
+                            labels: ranges.map(r => r.label),
+                            datasets: [{
+                                data: data,
+                                backgroundColor: ranges.map(r => r.color),
+                                borderWidth: 2,
+                                borderColor: '#1f2937'
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: {
+                                legend: {
+                                    position: 'bottom',
+                                    labels: {
+                                        color: '#ffffff',
+                                        usePointStyle: true
+                                    }
+                                }
+                            }
+                        }
+                    });
+                },
+
+                crearRadarChart(logoId) {
+                    const logo = this.logos.find(l => l.logo_id === logoId);
+                    if (!logo || !logo.scores) return;
+
+                    const canvasId = `radar-${logoId.replace(/[^a-zA-Z0-9]/g, '')}`;
+                    const ctx = document.getElementById(canvasId);
+                    if (!ctx) return;
+
+                    // Limpiar gráfico anterior si existe
+                    if (ctx.chart) {
+                        ctx.chart.destroy();
+                    }
+
+                    ctx.chart = new Chart(ctx, {
+                        type: 'radar',
+                        data: {
+                            labels: [
+                                'Originalidad',
+                                'Adecuación Marca',
+                                'Legibilidad',
+                                'Impacto Visual',
+                                'Versatilidad',
+                                'Innovación Tech'
+                            ],
+                            datasets: [{
+                                label: 'Puntuación',
+                                data: [
+                                    logo.scores.originalidad || 0,
+                                    logo.scores.adecuacion_marca || 0,
+                                    logo.scores.legibilidad_escalabilidad || 0,
+                                    logo.scores.impacto_visual || 0,
+                                    logo.scores.versatilidad_cromatica || 0,
+                                    logo.scores.innovacion_tecnologica || 0
+                                ],
+                                backgroundColor: 'rgba(59, 130, 246, 0.2)',
+                                borderColor: 'rgb(59, 130, 246)',
+                                pointBackgroundColor: 'rgb(59, 130, 246)',
+                                pointBorderColor: '#fff',
+                                pointHoverBackgroundColor: '#fff',
+                                pointHoverBorderColor: 'rgb(59, 130, 246)'
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            scales: {
+                                r: {
+                                    angleLines: {
+                                        color: 'rgba(255, 255, 255, 0.1)'
+                                    },
+                                    grid: {
+                                        color: 'rgba(255, 255, 255, 0.1)'
+                                    },
+                                    pointLabels: {
+                                        color: '#ffffff',
+                                        font: {
+                                            size: 10
+                                        }
+                                    },
+                                    ticks: {
+                                        color: '#ffffff',
+                                        backdrop: {
+                                            color: 'transparent'
+                                        }
+                                    },
+                                    min: 0,
+                                    max: 10
+                                }
+                            },
+                            plugins: {
+                                legend: {
+                                    display: false
+                                }
+                            }
+                        }
+                    });
+                }
+            }
+        }
+    </script>
+</body>
+</html>
